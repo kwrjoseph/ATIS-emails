@@ -1,0 +1,1837 @@
+<html lang="en-us" class="pardot-embedded k-webkit k-webkit130"><head>
+		<meta charset="utf-8">
+<title>
+	Emails</title><link rel="shortcut icon" href="/favicon.sfdc.ico?2013-07-22" type="image/ico">
+
+<link rel="stylesheet" href="/css/styles.dist-c5383840.css">
+
+<link rel="stylesheet" href="/assets/kendo/vendor/kendo/styles/kendo.common-bootstrap.min.css">
+<link rel="stylesheet" href="/assets/kendo/vendor/kendo/styles/kendo.bootstrap.min.css">
+
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script>
+	window.pardot = window.pardot || {};
+	window._csrf_token = '4f85c2a470a55831e0860bf299a9ed7a934cfe695e2936e31f69f8a84ccae17d0ad8c10bb938790cd7a3dea020d3f4dc';
+	window.pardot.embeddedHostname = "embedded.pardot.force.com";
+	window.pardot.appHostname = "pi.pardot.com";
+	window.pardot.isEmbedded = true;
+</script>
+
+	<!-- Link metrics reciever to drop-in performance solution -->
+	<script src="/js/metrics/dist/bookmarklet.dist-7ae9c41f.js" handlerobject="pardot.metrics" handlerfunction="sendMetrics"></script>
+
+<script type="text/javascript" src="/js/jquery/jquery-3.5.1.min.js"></script><script type="text/javascript" src="/js/jquery/jquery-migrate-3.3.0.min.js"></script><script type="text/javascript" src="/js/jquery-ui/jquery-ui.min.js?v=1.13.2"></script>
+<script src="/js/global-bundle.min.dist-ba172461.js"></script><style type="text/css"></style>
+<script src="/js/pardot.dist-be39f02f.js"></script>
+
+<script>
+	svg4everybody();
+</script>
+
+<script>
+	function repositionModalForPla(originalTarget, modalId, offset) {
+		if (window.pardot.isEmbedded) {
+			window.pardot.embedded.repositionModal(originalTarget, modalId, offset);
+		}
+	}
+</script>
+
+<script>
+	var languageId = 'en-US'
+	var localeId = 'en-US';
+	var pardotProductName = 'Account Engagement';
+	// For passing user culture code to CKEditor instances
+	window.pardot = window.pardot || {};
+	window.pardot.CKEditorLanguage = languageId;
+	window.pardot.locale = localeId;
+	var tzCode = 'America\x2fNew\x5fYork';
+	var i18nJsonFile = '/i18n/messages-en-us.dist-83d539bf.json';
+	var isI18nReady = i18n.init({
+		resGetPath: i18nJsonFile,
+		lowerCaseLng: true,
+		lng: languageId,
+		nsseparator: '::',
+		keyseparator: ':',
+		useCookie: false,
+		fallbackLng: false,
+		ns: {
+			namespaces: ['messages'],
+			defaultNs: 'messages'
+		},
+		load: 'current',
+		debug: false,
+		getAsync: false,
+		defaultVariables: {
+			'PARDOT_PRODUCT_NAME': pardotProductName
+		}
+	});
+</script>
+
+
+<script>
+	(function ($, window) {
+		var ALLOWED_ORIGINS_WHITELIST = ["http://debug.pardot.com","https://debug.pardot.com","http://debug-preview.pardot.com","https://debug-preview.pardot.com","https://pi.pardot.com","http://pi.pardot.com","https://embedded.pardot.force.com","http://embedded.pardot.force.com","https://embedded-preview.pardot.force.com","http://embedded-preview.pardot.force.com"];
+
+		window.pardot = window.pardot || {};
+
+		/**
+		* Ensure that including this component is idempotent. Redefining
+		* isAllowedOrigin shouldn't have any side-effects currently, but this
+		* clearly communicates intent and guards against potential future
+		* side-effects.
+		 */
+		if (typeof window.pardot.isAllowedOrigin === 'function') {
+			return;
+		}
+
+		/**
+		 * Returns true if origin is within the whitelist of allowed cross-domain
+		 * origins
+		 */
+		window.pardot.isAllowedOrigin = function (origin) {
+			return $.inArray(origin, ALLOWED_ORIGINS_WHITELIST) !== -1;
+		}
+	}(jQuery, window));
+</script>
+
+<script src="/bundles/piBundle-17863611979244fe74d0.js"></script>
+
+<!--embedded.dev.pardot.force.com-->
+<meta http-equiv="origin-trial" content="AgguIKUbNhZbdMCrC8Yg6GB9WCzO54JY6yd0MTiV+8kw5acW2ouaiK3hdbIvUz9NlYkrtb6DLuZScu9E2TCP2AkAAACZeyJvcmlnaW4iOiJodHRwczovL2VtYmVkZGVkLmRldi5wYXJkb3QuZm9yY2UuY29tOjQ0MyIsImZlYXR1cmUiOiJEaXNhYmxlRGlmZmVyZW50T3JpZ2luU3ViZnJhbWVEaWFsb2dTdXBwcmVzc2lvbiIsImV4cGlyeSI6MTYzOTUyNjM5OSwiaXNTdWJkb21haW4iOnRydWV9">
+<!--embedded.pardot.com-->
+<meta http-equiv="origin-trial" content="Atan1P/qx81AnGg/+lSWfHvc1Bhzve0wVNin0gLI9ZjTzy89um1bVDoPrlChEXKIuxh6lbgIA3NPBylVRO5RqwAAAACPeyJvcmlnaW4iOiJodHRwczovL2VtYmVkZGVkLnBhcmRvdC5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVEaWZmZXJlbnRPcmlnaW5TdWJmcmFtZURpYWxvZ1N1cHByZXNzaW9uIiwiZXhwaXJ5IjoxNjM5NTI2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZX0=">
+<!--app.dev.pardot.com-->
+<meta http-equiv="origin-trial" content="AsG0tljBK/5U54Zei7+akHDzktNvSVl9YIrbwrqvRQXcR+6pT3lhRLMTabdoXqb5eHPbZYsmIIKxhukJUrnUjgQAAACOeyJvcmlnaW4iOiJodHRwczovL2FwcC5kZXYucGFyZG90LmNvbTo0NDMiLCJmZWF0dXJlIjoiRGlzYWJsZURpZmZlcmVudE9yaWdpblN1YmZyYW1lRGlhbG9nU3VwcHJlc3Npb24iLCJleHBpcnkiOjE2Mzk1MjYzOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<!--pi.pardot.com-->
+<meta http-equiv="origin-trial" content="Au5PblsvdcPfzyQ2tlTlqWr1+5K3qaVQxR+XgZW9QzTvVtZA7h2B+SivLvPt8pgBkqdro7rQO5iDi50DLlQK+QMAAACJeyJvcmlnaW4iOiJodHRwczovL3BpLnBhcmRvdC5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVEaWZmZXJlbnRPcmlnaW5TdWJmcmFtZURpYWxvZ1N1cHByZXNzaW9uIiwiZXhwaXJ5IjoxNjM5NTI2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZX0=">
+<!--pi.demo.pardot.com-->
+<meta http-equiv="origin-trial" content="AoB/fFd7kXG4u+nQV4SVmjJQ4c6yTzsTbX/z+drVEIgqepNH+sYuZoxMMFE75R1Dtg6RU2FU3U458DOxVp46FgQAAACOeyJvcmlnaW4iOiJodHRwczovL3BpLmRlbW8ucGFyZG90LmNvbTo0NDMiLCJmZWF0dXJlIjoiRGlzYWJsZURpZmZlcmVudE9yaWdpblN1YmZyYW1lRGlhbG9nU3VwcHJlc3Npb24iLCJleHBpcnkiOjE2Mzk1MjYzOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<!--embedded.demo.pardot.com-->
+<meta http-equiv="origin-trial" content="Ap3pmJfLw/bldSNL0+McgJJeVldxDzUuhveT6L3D1a7SECvRMlb3YiqNDasalg+bBeoX1ToZylzYq22I8xqTywsAAACUeyJvcmlnaW4iOiJodHRwczovL2VtYmVkZGVkLmRlbW8ucGFyZG90LmNvbTo0NDMiLCJmZWF0dXJlIjoiRGlzYWJsZURpZmZlcmVudE9yaWdpblN1YmZyYW1lRGlhbG9nU3VwcHJlc3Npb24iLCJleHBpcnkiOjE2Mzk1MjYzOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<!--embedded.perf.pardot.com-->
+<meta http-equiv="origin-trial" content="AlT5rtQXwDCmPxe402jhsROAtUc2Fgv1ZSyrbH2hsAzcp/gThDvYuOoBlQogOHtHzqaAMPbIsaFLJOUSu3nyYAgAAACUeyJvcmlnaW4iOiJodHRwczovL2VtYmVkZGVkLnBlcmYucGFyZG90LmNvbTo0NDMiLCJmZWF0dXJlIjoiRGlzYWJsZURpZmZlcmVudE9yaWdpblN1YmZyYW1lRGlhbG9nU3VwcHJlc3Npb24iLCJleHBpcnkiOjE2Mzk1MjYzOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<!--pi.perf.pardot.com-->
+<meta http-equiv="origin-trial" content="Ag2MvAheUe5pi28kf67HUkADAbj1DVoMGeNHnEgZ4lfPacDnjABQtHPAi3FcpoUoBwBeCNYOPIZ+RaGp0qjzkwgAAACOeyJvcmlnaW4iOiJodHRwczovL3BpLnBlcmYucGFyZG90LmNvbTo0NDMiLCJmZWF0dXJlIjoiRGlzYWJsZURpZmZlcmVudE9yaWdpblN1YmZyYW1lRGlhbG9nU3VwcHJlc3Npb24iLCJleHBpcnkiOjE2Mzk1MjYzOTksImlzU3ViZG9tYWluIjp0cnVlfQ==">
+<!--embedded.localhost.com-->
+<meta http-equiv="origin-trial" content="Ajqge1O0oXm4ZnGXTvIiK8D58mfKK/CQ175GJgCKDWxtxgxMfRPSjdc1e6tWgJ3WJwvSE6aDbCrKE0oLDPUCugwAAACSeyJvcmlnaW4iOiJodHRwczovL2VtYmVkZGVkLmxvY2FsaG9zdC5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVEaWZmZXJlbnRPcmlnaW5TdWJmcmFtZURpYWxvZ1N1cHByZXNzaW9uIiwiZXhwaXJ5IjoxNjM5NTI2Mzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZX0=">
+
+<script>
+	if (!window.location.href.match("\/user\/logout$")
+		&& !window.location.href.match("\/sso\/loginConnector\/source\/salesforce")
+		&& !window.location.href.match("\/connector\/sfdcOauth")
+	) {
+		if (self === top) {
+			window.location.replace("/user/logout");
+		}
+	}
+</script>
+
+<script>
+	var canvasOriginalPath = '\x2Femail\x2Findex\x2Fview\x2Fallsentlist';
+	var canvasClientDataJson = null;
+</script>
+
+<script src="/js/embedded/canvas-all.js"></script>
+<script src="/js/embedded/formdata.min.dist-89088e4f.js"></script>
+<script src="/js/embedded/embedded.dist-64f669f9.js" defer=""></script>
+
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta http-equiv="P3P" content="CP=&quot;NOI DSP COR CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT&quot;">
+		<link rel="P3Pv1" href="http://pi.pardot.com/w3c/p3p.xml" type="text/xml">
+
+		
+<script>
+	/* Check for retina */
+	var pixelRatio = (window.devicePixelRatio >= 1.5) ? "high" : "normal";
+
+	//Google's code for loading analytics library
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','googleAnalytics');
+
+	
+		googleAnalytics('create', 'UA-1824249-11', { 'userId':'goIbrIA3vPHeQ'});
+	
+		googleAnalytics('set', 'dimension4', 'goHp4MmvBeksg' );
+	
+	googleAnalytics('send', 'pageview');
+	googleAnalytics('send', 'pageLoadTime');
+	googleAnalytics('set', 'dimension1', pixelRatio);
+	if ( typeof hasChat !== 'undefined' ) {
+		googleAnalytics('set', 'dimension2', hasChat);
+	}
+	googleAnalytics('set', 'dimension5', 'en_US');
+	googleAnalytics('set', 'dimension6', 'en_US');
+</script>
+
+
+		<script>
+					</script>
+	<script src="/js/ckeditor/window-check.dist-a1306903.js"></script>
+<script src="/js/ckeditor/ckeditor.js?id=2020-10-21T18:16:54.407Z"></script><style>.cke{visibility:hidden;}</style>
+<script src="/js/ckeditor/ckeditor-formaction-xss-fix.js?id=2020-10-21T18:16:54.407Z"></script>
+<script src="/assets/kendo/vendor/kendo/custom-builds/kendo.dropdown.min.js?v=8452"></script>
+<script src="/js/completion_actions-8452.js?v=W8956521"></script>
+<script src="/assets/kendo/vendor/kendo/kendo.all.min.js"></script>
+<script src="/assets/automation/js/email_template_selector.dist-023a3c5c.js"></script>
+<script src="/js/campaign_selector.dist-b966ad04.js"></script>
+<script src="/js/calendar/calendar.js"></script>
+<script src="/js/calendar/lang/calendar-en.js"></script>
+<script src="/js/calendar/calendar-setup.js"></script>
+<script src="/js/jquery/jquery.piDataTableTagFilter.dist-194cb1e2.js"></script>
+<script src="/assets/vendor/moment/min/moment.min.js"></script>
+<script src="/js/ember/handlebars.runtime.min.js?v=1.0.0"></script>
+<script src="/js/ember/ember.min.js?v=1.4.0"></script>
+<script src="/js/modules/asset_chooser/asset-chooser-app.min.dist-7e39bf59.js"></script>
+<script src="/js/all.fine-uploader.min.js?v=06-07-16"></script>
+<script src="/js/prototype-bundle.min.dist-be23e360.js"></script>
+<script src="/js/calendar-bundle.min.dist-3ec2a897.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/assets/microcampaign/vendor/kendo/styles/kendo.common-bootstrap.min.css?8452">
+<link rel="stylesheet" type="text/css" media="screen" href="/assets/microcampaign/vendor/kendo/styles/kendo.bootstrap.min.css?v=8452">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/completion_actions.css?v=8452">
+<link rel="stylesheet" type="text/css" media="screen" href="/css/calendar/skins/aqua/theme.css">
+</head>
+	<body id="top" class="frontendApplication emailModule indexAction ipardot " data-new-gr-c-s-check-loaded="14.1208.0" data-gr-ext-installed="" data-new-gr-c-s-loaded="14.1208.0">
+		
+		<div id="wrap" class="clearfix">
+			<div id="wrapper">
+				<div id="contentWrap">
+					<div id="content">
+													<div id="header-wrapper" class="slds">
+								    <div class="coco-banner__container">
+        <div class="coco-banner__content">
+            <h1 class="coco-banner__title">
+                Copy assets to a Salesforce CMS workspace            </h1>
+            <div>Seamlessly copy content from Account Engagement to Salesforce CMS. Content you store in Salesforce CMS is available to use in Marketing Cloud and other Salesforce products.</div>
+            <i>
+                Admins can enable this feature and review supported assets <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=mcae_supported_cms_file_types.htm&amp;type=5" target="_blank">here</a>.            </i>
+        </div>
+        <div class="coco-banner__action">
+            <a class="slds-button slds-button_neutral" href="https://libertyelevatorexpertsllc.my.salesforce.com/lightning/setup/PardotContentConvergenceSetup/home" target="_blank">
+				Go to Setup            </a>
+        </div>
+    </div>
+								<div class="slds-page-header">
+									<div class="slds-grid">
+										<div class="slds-col slds-has-flexi-truncate">
+											<div class="slds-media slds-no-space slds-grow">
+												<div class="slds-media__figure">
+																		<span class="slds-icon_container slds-icon-standard-email-chatter">
+			<svg class="slds-icon" aria-hidden="true">
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/css/slds-current/icons/standard-sprite/svg/symbols.svg#email_chatter"></use>
+			</svg>
+		</span>
+													</div>
+												<div class="slds-media__body slds-m-right_small header-text">
+																										<h1 id="header-title" class="slds-page-header__title slds-align-middle slds-truncate" title="Emails">
+														Emails													</h1>
+												</div>
+											</div>
+										</div>
+										<div id="header-actions" class="slds-col slds-no-flex slds-grid slds-align-top header-actions"></div>
+									</div>
+								</div>
+							</div>
+						
+						<div id="center-stage">
+							<div class="ipardot-container">
+																
+
+
+
+
+
+
+
+
+							</div>
+
+							
+							<div class="ipardot-container">
+								
+<script src="/js/controls.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+function subParse(content, start, end) {
+			var loc1 = content.indexOf(start);
+			var loc2 = content.substring(loc1 + start.length).indexOf(end);
+			if (loc1 >= 0 && loc2 >= 0)
+				return content.substring(loc1, loc2 + start.length + loc1 + end.length);
+			else
+				return false;
+		}
+		function getElement(content) {
+			var element = subParse(content, '<', '>');
+			while (element && element.indexOf('<') > 0) {
+				element = element.substring(1).subParse('<', '>');
+			}
+			return element;
+		}
+	
+//]]>
+</script><script>CKEDITOR.timestamp = '2020-10-21T18:16:54.407Z'; // Cache bust ckeditor plugins</script><script src="/js/jquery/jquery.fancybox.js?id=2019-06-19"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/jquery.fancybox.css?v=1.1">
+
+
+<!-- @var $ignoreDismissal -->
+
+
+	<div id="convertToHml" class="ajax_status" style="display: none"></div>
+
+	
+
+
+
+
+	
+	
+
+                
+			<div id="email">
+	
+	<div id="em_status" style="display: block;" class="ajax_status"></div>
+					
+	
+	
+	<div id="tagFilteremail" class="tagfilter-pop-up dropdown-menu" style="display: none;"><input type="text" id="tagFilterSearchemail" value=""><div class="scroller"><ul id="tagFilterSelectoremail"><li tabindex="0">240521-us-all-cg-wbn-pbm contract-on-demand</li><li tabindex="0">240910-us-all-ce-web-modernize your elevator</li><li tabindex="0">20240910-us-all-ce-web-modernize your elevator-last chance invite</li><li tabindex="0">automation-net new</li><li tabindex="0">campaign member</li><li tabindex="0">competitor</li><li tabindex="0">dedup</li><li tabindex="0">do not email</li><li tabindex="0">emergency services</li><li tabindex="0">employee</li><li tabindex="0">hard bounced</li><li tabindex="0">hospitality fix</li><li tabindex="0">nevada building owners import</li><li tabindex="0">newsletter</li><li tabindex="0">op-building data contact</li><li tabindex="0">profiles</li><li tabindex="0">social source</li><li tabindex="0">subtype fix</li><li tabindex="0">us-send3-g1</li></ul></div><a href="#" onclick="piDataTableTagFilterFactory.clearTags('email'); return false;" style="float: left;">Clear filter</a>  <a href="/tag" style="float: right;">Manage tags</a></div><div id="em_module" class="module">
+
+		<div class="header clearfix">
+
+										<h2 id="email_h2">
+			All Sent List Emails			</h2>
+
+													<form id="email_view" class="views inline" onsubmit="new Ajax.Updater('email_table_div', '/email/table/ajax/1', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('em_status', true);$('email_h2').innerHTML = $('email_view_field').options[$('email_view_field').selectedIndex].text;}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:$('email_ajax_urlparams').value + '&amp;'  + Form.serialize(this) }); return false;" action="/email/table/ajax/1" method="post"><div style="display:none;"><input type="hidden" name="_csrf_token" value="91eb53e06fd3578fcb8ef406dd3b4017fbfb7149d375621def352804d06b03fa520a84d70566d81960529f163ff92f15"></div>									<p class="inline header table-views">
+						<label>
+							View:<br>
+							<select name="view" id="email_view_field" onchange="$(&quot;email_view&quot;).onsubmit();return false;" class="input-auto" aria-label="Select view"><option value="mysent">My Sent Emails</option>
+<option value="allsent">All Sent Emails</option>
+<option value="allsentlist" selected="selected">All Sent List Emails</option>
+<option value="senthidden">Hidden Sent Emails</option>
+<option value="sentplugin">Plugin Sent Emails</option>
+<option value="allsentautomated">All Sent Automated Emails</option>
+<option value="allsentlex">All Sent Builder Emails</option>
+<option value="sentabtests">A/B Tests Sent</option>
+</select>							<input type="hidden" name="view_change" id="view_change" value="true">						</label>
+					</p>
+							</form>
+			
+		
+											<form id="email_date_range_form" class="inline" onsubmit="new Ajax.Updater('email_table_div', '/email/table/ajax/1', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('em_status', true);}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:$('email_ajax_urlparams').value + '&amp;'  + Form.serialize(this) }); return false;" action="/email/table/ajax/1" method="post"><div style="display:none;"><input type="hidden" name="_csrf_token" value="91eb53e06fd3578fcb8ef406dd3b4017fbfb7149d375621def352804d06b03fa520a84d70566d81960529f163ff92f15"></div>
+																					<p class="inline header">
+							<label>
+								Campaign:<br>
+								<span title="" class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="campaign_filter_em_listbox" aria-disabled="false" aria-readonly="false" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">All Campaigns</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><input type="hidden" name="campaign_filter" id="campaign_filter_em" value="0" onchange="$('email_date_range_form').onsubmit();" aria-label="Select campaign" data-role="dropdownlist" style="display: none;"></span>
+							</label>
+						</p>
+						<script type="text/javascript">
+							$j(document).ready(function(){
+								var campaign = new CampaignSelector({
+									initialId:		0,
+									initialName:	"",
+									defaultId:		0,
+									defaultName:	"All Campaigns",
+									scope:			'reporting',
+									dropdownElement: jQuery('#campaign_filter_em')
+								});
+							});
+						</script>
+														<p class="inline header">
+						<label>
+														
+															<span id="datetext_header">
+																			Date Range: 																	</span> <br>
+							
+							<select name="dateRange" id="dateRange_em" onchange="customDates = document.getElementById('em_custom_dates');if(this.value==7) {
+									customDates.removeClassName(&quot;hidden&quot;);
+								} else {
+									$('email_date_range_form').onsubmit();
+									customDates.addClassName(&quot;hidden&quot;);
+								}" class="input-auto" aria-label="Select date range"><option value="1">Today</option>
+<option value="2">Yesterday</option>
+<option value="4">This Month</option>
+<option value="10">This Quarter</option>
+<option value="11">This Year</option>
+<option value="3">Last 7 Days</option>
+<option value="14">Last Week</option>
+<option value="5">Last Month</option>
+<option value="12">Last Quarter</option>
+<option value="13">Last Year</option>
+<option value="6" selected="selected">All Time</option>
+<option value="7">Custom</option>
+</select>							<span id="em_custom_dates" class="datepickerBS inline header hidden">
+																<input type="text" name="startDate" id="emstartDate" value="2007-01-01" class="datepicker input-small" aria-label="Date range start date" size="12"><button type="button" onclick="return false" id="trigger_emstartDate">...</button><script type="text/javascript">
+    document.getElementById("trigger_emstartDate").disabled = false;
+
+    Calendar.setup({
+      inputField : "emstartDate",
+      ifFormat : "%Y-%m-%d",
+      daFormat : "%Y-%m-%d",
+      button : "trigger_emstartDate"
+    });
+  </script>
+								&nbsp;to&nbsp;
+
+								<input type="text" name="endDate" id="emendDate" value="2024-11-14" class="datepicker input-small" aria-label="Date range end date" size="12"><button type="button" onclick="return false" id="trigger_emendDate">...</button><script type="text/javascript">
+    document.getElementById("trigger_emendDate").disabled = false;
+
+    Calendar.setup({
+      inputField : "emendDate",
+      ifFormat : "%Y-%m-%d",
+      daFormat : "%Y-%m-%d",
+      button : "trigger_emendDate"
+    });
+  </script>
+								&nbsp;
+								<input type="submit" name="commit" value="Go" class="btn btn-primary">							</span>
+						</label>
+					</p>
+				</form>
+			
+			
+											<form id="email_filter" class="inline" onsubmit="new Ajax.Updater('email_table_div', '/email/table/ajax/1/dateText/Date+Range%3A+', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('em_status', true);}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:$('email_ajax_urlparams').value.replace('table_filter=','') + '&amp;'  + Form.serialize(this) }); return false;" action="/email/table/ajax/1/dateText/Date+Range%3A+" method="post"><div style="display:none;"><input type="hidden" name="_csrf_token" value="91eb53e06fd3578fcb8ef406dd3b4017fbfb7149d375621def352804d06b03fa520a84d70566d81960529f163ff92f15"></div>
+					<p class="inline header">
+						<label>
+															Filter:																<br>
+								<input type="text" name="table_filter" id="email_table_filter" value="" onkeyup="clearTimeout(hideAllMenusTimeout); hideAllMenusTimeout = setTimeout('$(&quot;email_filter&quot;).onsubmit()',600);" class="input-medium" aria-label="Search">														</label>
+					</p>
+				</form>
+													<span class="hide">functional test tag filtering indicator</span>								<br>
+									<form id="email_tagFilter" class="aaa inline tag-filter-form" onsubmit="new Ajax.Updater('email_table_div', '/email/table/ajax/1/dateText/Date+Range%3A+/table_filter', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('em_status', true);}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:$('email_ajax_urlparams').value.replace(new RegExp('[?&amp;]tagFilter=[^&amp;]*'),'') + '&amp;'  + Form.serialize(this) }); return false;" action="/email/table/ajax/1/dateText/Date+Range%3A+/table_filter" method="post"><div style="display:none;"><input type="hidden" name="_csrf_token" value="91eb53e06fd3578fcb8ef406dd3b4017fbfb7149d375621def352804d06b03fa520a84d70566d81960529f163ff92f15"></div>					<p class="inline header" id="tagFilterContaineremail"><button onclick="piDataTableTagFilterFactory.togglePopup('email'); return false;" class="btn">Tags<span class="caret"></span></button><span id="tagFilterListemail"></span><input type="hidden" id="tagFilterInputemail" name="tagFilter" value=""></p>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	piDataTableTagFilterFactory.createNew(
+		jQuery("#tagFilterContaineremail"),
+		"email",
+		"240521\x2dus\x2dall\x2dcg\x2dwbn\x2dpbm contract\x2don\x2ddemand\x2c240910\x2dus\x2dall\x2dce\x2dweb\x2dmodernize your elevator\x2c20240910\x2dus\x2dall\x2dce\x2dweb\x2dmodernize your elevator\x2dlast chance invite\x2cautomation\x2dnet new\x2ccampaign member\x2ccompetitor\x2cdedup\x2cdo not email\x2cemergency services\x2cemployee\x2chard bounced\x2chospitality fix\x2cnevada building owners import\x2cnewsletter\x2cop\x2dbuilding data contact\x2cprofiles\x2csocial source\x2csubtype fix\x2cus\x2dsend3\x2dg1",
+		""
+	);
+});
+</script>
+				</form>
+			
+									<div class="btn-group pull-right">
+			  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+			    Tools			    <span class="caret"></span>
+			  </a>
+			  <ul class="dropdown-menu">
+
+															<li><a href="#" onclick="new Ajax.Updater('em_status', '/tagObject/tagTableAjax', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('em_status', true);new Effect.Highlight('em_status', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('em_table_footer', false); }}, parameters:'ajaxParams='+encodeURIComponent($('email_ajax_urlparams').value) + '&amp;ajaxUrl=%2Femail%2Ftable&amp;objectName=All+Sent+List+Emails' + '&amp;_csrf_token=0964fe89c8ee59bc48c45ad9417f0cbb188a137c847cebac22aa8edc961b21acd89c1ff0b280c1fe511c59038757f02a'});; return false;"><i class="icon-tag"></i> Tag Entire Table</a>						</li>
+							  
+										
+				
+																	<li><a onclick="location='/email/export?' + $('email_ajax_urlparams').value; return false;" href="#"><i class="icon-download-alt"></i> CSV Export</a>					</li>
+							
+									  <li>
+			  	<a onclick="$j(this).parent().parent().parent().removeClass(&quot;open&quot;); window.print();" href="#"><i class="icon-print"></i> Print</a>			  </li>
+		                          </ul>
+			</div>
+			
+																		<span class="link_to_create pull-right">
+											<a class="btn btn-warning" href="/email/draft/edit"><i class="icon-plus"></i> Send new list email</a>				</span>
+			
+								</div>
+		<div id="em_wrapper" class="module-wrapper">
+			<div id="email_table_div">
+
+
+
+	
+<input type="hidden" id="email_ajax_urlparams" value="sort=list_email.sent_at&amp;order=desc&amp;view=allsentlist&amp;mode=manage&amp;tableName=email&amp;pageSize=5&amp;prefix=em&amp;export=icon&amp;startDate=%401678909106&amp;endDate=%401731646799&amp;dateText=Date+Range%3A&amp;dateRange=6&amp;table_filter=VEIS&amp;tagFilter=+&amp;ajaxElement=email&amp;startDate=%401678909106&amp;endDate=%401731646799&amp;numResults=1">
+<table id="email_table" class="data-table table-bordered">
+                <thead>
+	<tr>
+					
+								
+															<th class="first checkbox-column checkbox">
+											<input type="checkbox" class="check-all" aria-label="Select all rows">
+																				
+						</th>
+					
+								
+											<th class="name-column">
+			
+															<a aria-label="Name column, sort descending" href="#" onclick="new Ajax.Updater('email\x5ftable\x5fdiv', '/email/table/ajax/1/page/1/order/desc/sort/list_email.name/view/allsentlist/mode/manage/tableName/email/pageSize/5/prefix/em/export/icon/startDate/%401678909106/endDate/%401731646799/dateText/Date+Range%3A/dateRange/6/table_filter/VEIS/tagFilter/+/ajaxElement/email', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=56be32cf53847a5ba72b007148571a3fd6321b60d06b589873393407e794af37d0e723d08d8df516f56aeb146b313c85'});; return false;">Name</a>
+		
+						</th>
+					
+								
+											<th class="prospect--list-column">
+										Prospect / List					
+						</th>
+					
+								
+											<th class="from-column">
+										From					
+						</th>
+					
+								
+											<th class="created-by-column">
+			
+															<a aria-label="Created By column, sort descending" href="#" onclick="new Ajax.Updater('email\x5ftable\x5fdiv', '/email/table/ajax/1/page/1/order/desc/sort/list_email.created_by/view/allsentlist/mode/manage/tableName/email/pageSize/5/prefix/em/export/icon/startDate/%401678909106/endDate/%401731646799/dateText/Date+Range%3A/dateRange/6/table_filter/VEIS/tagFilter/+/ajaxElement/email', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=9ea9eab2b77a386639a7f8ea9f0669ecc9e3221e0c73fba01ef8829ccf7cedfaeac0b742347b8711716fd2949edad639'});; return false;">Created By</a>
+		
+						</th>
+					
+								
+																<th class="sortable sort-down date--time-column">
+												
+															<a aria-label="Date / Time column, sort ascending" href="#" onclick="new Ajax.Updater('email\x5ftable\x5fdiv', '/email/table/ajax/1/page/1/order/asc/sort/list_email.sent_at/view/allsentlist/mode/manage/tableName/email/pageSize/5/prefix/em/export/icon/startDate/%401678909106/endDate/%401731646799/dateText/Date+Range%3A/dateRange/6/table_filter/VEIS/tagFilter/+/ajaxElement/email', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=c9d2bf6790fa3e28dc1b50a2221cac1128a1fcd1a3335d033b3344e3760c5c658afb8ca22d42bfca061c71e28df8372f'});; return false;">Date / Time</a>
+		
+							<i class="icon-circle-arrow-down muted"></i>				</th>
+					
+								
+											<th class="actions-column">
+										Actions					
+						</th>
+		</tr>
+</thead>
+    
+            <tbody>
+                    <tr class="" id="email_row_a0">
+                                                                            
+                    <td class="first checkbox">
+                        <input type="checkbox" name="checkbox_email_889134856" id="checkbox_email_889134856" value="889134856" class="datatable-checkbox" aria-label="Select row">                    </td>
+                                                                            
+                    <td>
+                        	<a href="/email/read/id/889134856">24Q4-US-EAST-VEIS Acquisition-Operational </a>
+
+	<br>
+	<span style="font-size: 12px; color: #999">
+		<i class="icon-folder-close"></i>				<a href="/folder#/28524" aria-label="Folder: /All Services/US Northeast/24Q4-US-EAST-VEIS Acquisition">
+			/All Services/US Northeast/24Q4-US-EAST-VEIS Acquisition		</a>
+	</span>
+                    </td>
+                                                                            
+                    <td>
+                        					<a href="/list/read/id/70924">24Q4-US-EAST-VEIS Acquisition-Customer Emails</a>			                    </td>
+                                                                            
+                    <td>
+                        				<ol>
+							<li>General User: ATIS &lt;vt@atis.com&gt;</li>
+					</ol>
+	                    </td>
+                                                                            
+                    <td>
+                        <a href="/user/read/id/66166443">Zeina Heaney</a>                    </td>
+                                                                            
+                    <td>
+                        Nov 14, 2024 10:00 AM                    </td>
+                                                                            
+                    <td class="new-actions">
+                        <div class="actions-menu-wrapper">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog muted" aria-label="Row actions"></i></a>	<ul class="dropdown-menu pull-right" role="menu">
+		
+			
+					<li>
+				<a href="#" onclick="new Ajax.Updater('email_row_b_cell0', '/email/editCompletionActions/id/889134856/prefix/em', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('email_row_b0');new Effect.Highlight('email_row_b0', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=caa49a6a9258988d728560de978f179e3d15fcb550ae8d170e544fd091992abb92bedb59ec248af1fe3fac21739c3798'});; return false;"><i class="icon-edit muted" title="Edit"></i> Edit completion actions</a>			</li>
+			
+			<li>
+			<a href="#" onclick="new Ajax.Updater('email_row_b_cell0', '/email/showMessage/id/889134856', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('email_row_b0');new Effect.Highlight('email_row_b0', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=c2ace80c22c18dbee6061aee86c58336cd23efa8634c6e63386f2dd0d470c62e1f6ab2dd57986ea506c482f08abe7858'});; return false;"><i class="icon-envelope-alt muted" title="Show Message"></i> Show Message</a>		</li>
+	
+						<li>
+									<a href="#" onclick="jQuery.ajax({type:'POST',dataType:'html',data:'_csrf_token=4d6e016feb9c69e9819e4eadf5c1e735a756634fe65be5bc69ff71e93d2ed1b70a63b69c5ce40634e2142893578ff2bd',success:function(data, textStatus){jQuery('#convertToHml').html(data);},beforeSend:function(XMLHttpRequest){$j(&quot;#indicator&quot;).show();},complete:function(XMLHttpRequest, textStatus){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('convertToHml', true);new Effect.Highlight('convertToHml', {duration:2});},url:'/email/draft/convertToHMLAjax/email_copy/889134856'}); return false;"><i class="icon-copy muted" title="Copy"></i> Copy</a>							</li>
+		
+					<li>
+									<a href="#" onclick="new Ajax.Updater('email_row_b_cell0', '/email/hide/id/889134856', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('email_row_b0', true);new Effect.Highlight('email_row_b_cell0', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=db601eb47a77a22bac6e1e16992799ec389ed903932cc12fc6d6a0ec2d04af6c6a95cddda3613cfcb4bdf9339e7a70c2'});; return false;"><i class="icon-zoom-out muted" title="Hide"></i> Hide</a>							</li>
+			
+	
+	
+	</ul>
+</div>
+                    </td>
+                            </tr>
+            <tr style="display: table-row; background-image: none; background-color: rgb(255, 255, 255);" id="email_row_b0" class="ajax_row">
+                <td colspan="7" id="email_row_b_cell0">
+
+
+	<div id="em_status889134856" class="form ajax_status">
+		<p class="cancel"><a class="cancel-link " href="#" onclick="if(jQuery(this).parents('.ajax_row').length) {jQuery(this).parents('.ajax_row').hide();} else{toggleDisplay('em_row_b889134856'); cancelFormClearInnerHTML('em_row_b889134856'); toggleDisplay('em_form_update889134856'); cancelFormClearInnerHTML('em_form_update889134856'); if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('em_table_footer',true); }} return false;">Cancel</a>
+</p>
+		<h3>Subject : Announcement: VEIS Acquired by ATIS</h3>
+		
+		<h3>Message:</h3>
+		
+					<div class="tab-group tab-group-fancy">		
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#html889134856" class="read-tab" data-toggle="tab">Html</a></li>
+					<li class=""><a href="#text889134856" class="read-tab" data-toggle="tab">Text</a></li>
+				</ul>
+			</div>
+			<div class="tab-content">
+				<div class="tab-pane active" id="html889134856">
+					<iframe sandbox="" width="100%" height="700" frameborder="0" style="border: 0pt none ;" src="https://embedded-preview.pardot.force.com/email/showHtmlMessage/id/1898977">
+					</iframe>
+				</div>
+				<div class="tab-pane" id="text889134856">
+					<pre>Dear Valued Customer,
+
+We are pleased to share some exciting news: Vermont Elevator Inspection
+Services (VEIS) has joined ATIS
+(https://atis.com/?utm_source=organic&amp;utm_medium=mcae&amp;utm_campaign=24q4-us-east-veisacquisition),
+a premier provider of elevator and escalator safety inspections, consulting
+and managed services. This acquisition expands our collective presence in
+Vermont and enhances our capacity to deliver quality inspection services
+across the region.
+
+With the support of ATIS, VEIS is better positioned to meet the growing
+demand for elevator and lift inspection services throughout the state, and
+ATIS is pleased to offer enhanced consulting services to all our Vermont
+customers.
+
+What does this mean for you? You will continue to receive the same
+high-quality elevator, lift and escalator inspection services you expect.
+-The VEIS team will remain intact as part of ATIS. Familiar faces will
+continue to support and coordinate your inspections from our local office.
+-You will also benefit from expanded customer service and administrative
+support, a larger team of best-in-class, state-certified inspectors, and
+improved service delivery.
+-The trusted team you know will continue to serve you, with a commitment to
+providing the same—or even better—level of service.
+
+ Please review the Certificate of Insurance (COI) and W9 on our website
+(https://atis.com/w9-cois?utm_source=organic&amp;utm_medium=mcae&amp;utm_campaign=24q4-us-east-veisacquisition).
+
+Access CoI and W9:
+https://atis.com/w9-cois?utm_source=organic&amp;utm_medium=mcae&amp;utm_campaign=24q4-us-east-veisacquisition
+
+If you require your company to be named on the COI as a certificate holder,
+please provide that requested information to insurance@atis.com
+(mailto:insurance@atis.com).
+
+ATIS’s Vermont team is here to serve you, and your current customer
+service contacts will remain available. Please feel free to reach out with
+any questions or concerns. We look forward to delivering a superior
+customer experience, prioritizing your safety, and maintaining integrity
+and impartiality. Thank you for your business; we look forward to serving
+you in the future.
+
+Address: ATIS Elevator World Headquarters, 600 Emerson Road, Suite 225,
+Creve Coeur, MO 63141
+Website:
+https://atis.com/?utm_source=organic&amp;utm_medium=mcae&amp;utm_campaign=24q4-us-east-veisacquisition
+Contact:
+https://atis.com/contact?utm_source=organic&amp;utm_medium=mcae&amp;utm_campaign=24q4-us-east-veisacquisition
+ | Privacy Policy:
+https://atis.com/privacy?utm_source=organic&amp;utm_medium=mcae&amp;utm_campaign=24q4-us-east-veisacquisition</pre>
+				</div>
+			</div>
+				
+		<p class="cancel"><a class="cancel-link " href="#" onclick="if(jQuery(this).parents('.ajax_row').length) {jQuery(this).parents('.ajax_row').hide();} else{toggleDisplay('em_row_b889134856'); cancelFormClearInnerHTML('em_row_b889134856'); toggleDisplay('em_form_update889134856'); cancelFormClearInnerHTML('em_form_update889134856'); if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('em_table_footer',true); }} return false;">Cancel</a>
+</p>
+	</div>
+
+
+</td>
+            </tr>
+                        </tbody>
+
+    
+</table>
+
+    
+    
+    <div class="table-foot clearfix">
+        <div id="em_table_footer">
+                                        <form action="#" class="inline pull-left">
+                    <input type="hidden" name="check_all_params" value="&amp;view=allsentlist&amp;mode=manage&amp;tableName=email&amp;pageSize=5&amp;prefix=em&amp;export=icon&amp;startDate=%401678909106&amp;endDate=%401731646799&amp;dateText=Date+Range%3A&amp;dateRange=6&amp;table_filter=VEIS&amp;tagFilter=+&amp;ajaxElement=email&amp;startDate=%401678909106&amp;endDate=%401731646799">
+                                        <div class="multi-checkbox-buttons pull-left">
+                        <label for="multi-select" class="batch-action-label">
+                            With <span class="checkbox-num-selected">0</span> selected:                        </label>
+
+                                                <select name="multi-select" id="multi-select" onchange="
+				if (this.value == &quot;multiAddTags&quot;) {
+					jQuery(this).siblings(&quot;.MultiSelect_AddTags&quot;).show();
+				}
+				else {
+					jQuery(this).siblings(&quot;.MultiSelect_AddTags&quot;).hide();
+				}
+			
+				if (this.value == &quot;multiRemoveTags&quot;) {
+					jQuery(this).siblings(&quot;.MultiSelect_RemoveTags&quot;).show();
+				}
+				else {
+					jQuery(this).siblings(&quot;.MultiSelect_RemoveTags&quot;).hide();
+				}
+			
+				if (this.value == &quot;multiAddToFolder&quot;) {
+					jQuery(this).siblings(&quot;.MultiSelect_AddToFolder&quot;).show();
+				}
+				else {
+					jQuery(this).siblings(&quot;.MultiSelect_AddToFolder&quot;).hide();
+				}
+			" class="multi-select input-auto" aria-label="Choose batch action to execute on selected items"><option value="" selected="selected">&nbsp;</option>
+<option value="multiAddTags">Add tags</option>
+<option value="multiAddToFolder">Move to folder</option>
+<option value="multiRemoveTags">Remove tags</option>
+</select>
+                                                <span class="MultiSelect_AddTags" style="display: none;"><input name="addTags" class="tagComponent tagComponentReady" id="tags1731609003051" value="" style="display: none;"><div id="tags1731609003051_tagsinput" class="tagsinput" style="margin-top: -1px;"><div id="tags1731609003051_addTag"><input id="tags1731609003051_tag" value="" placeholder="add a tag" class="ui-autocomplete-input not_valid" autocomplete="off" aria-labeledby="tags-input-label" style="color: rgb(102, 102, 102); width: 206px;"></div><div class="tags_clear"></div></div>
+
+</span><span class="MultiSelect_RemoveTags" style="display: none;"><input name="removeTags" class="tagComponent tagComponentReady" id="tags1731609003054" value="" style="display: none;"><div id="tags1731609003054_tagsinput" class="tagsinput" style="margin-top: -1px;"><div id="tags1731609003054_addTag"><input id="tags1731609003054_tag" value="" placeholder="add a tag" class="ui-autocomplete-input not_valid" autocomplete="off" aria-labeledby="tags-input-label" style="color: rgb(102, 102, 102); width: 206px;"></div><div class="tags_clear"></div></div>
+
+</span><div class="MultiSelect_AddToFolder inline" style="display: none; margin-right: 5px;"><input type="hidden" name="object_type" value="1"><div class="input-prepend input-append folder-chooser inline">
+			<span class="add-on" onclick="repositionModalForPla(this, 'asset-chooser-app-modal', 300);AssetChooserApp.chooseFolder(jQuery(this).parent())" style="cursor: pointer;"><i class="icon-folder-open-alt"></i></span>
+		<span class="input-xlarge uneditable-input default-size folder-name" style="cursor: pointer;" onclick="repositionModalForPla(this, 'asset-chooser-app-modal', 300);AssetChooserApp.chooseFolder(jQuery(this).parent())">Choose A Folder</span>
+	<input type="hidden" id="folder_id" name="folder_id" value="">
+	<button class="btn choose-asset" type="button" onclick="repositionModalForPla(this, 'asset-chooser-app-modal', 300);AssetChooserApp.chooseFolder(jQuery(this).parent())" aria-label="Choose A Folder">Choose</button>
+</div>
+
+
+
+
+
+
+		<div id="asset-chooser-app"></div>
+	
+
+
+</div>
+
+                        <input class="btn" type="button" onclick="if(confirmBatchAction(&quot;email&quot;, &quot;Emails&quot;)){new Ajax.Updater('em_status', '/email/table/objectName/Emails/view/allsentlist/mode/manage/tableName/email/pageSize/5/prefix/em/export/icon/startDate/%401678909106/endDate/%401731646799/dateText/Date+Range%3A/dateRange/6/table_filter/VEIS/tagFilter/+/ajaxElement/email', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('em_status', true);}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:Form.serialize(this.form) + '&amp;_csrf_token=0226f2377eb462c5340b607c139a07e157fc30a4d304da7db76927f6e9c9a21ea9ad1a0ca315fd86bcec1eacf6750d13'});} return false;" name="ajax_submit" value="Go"><input type="hidden" name="multiCheckIds" id="" value="" class="multiCheckIds">
+                    </div>
+                </form>
+                                        <form id="emailform" class="inline em-pager-form pager-form" onsubmit="new Ajax.Updater('email_table_div', '/email/table/ajax/1/sort/list_email.sent_at/order/desc/view/allsentlist/mode/manage/tableName/email/pageSize/5/prefix/em/export/icon/startDate/%401678909106/endDate/%401731646799/dateText/Date+Range%3A/dateRange/6/table_filter/VEIS/tagFilter/+/ajaxElement/email', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('em_status', true);}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:Form.serialize(this)}); return false;" action="/email/table/ajax/1/sort/list_email.sent_at/order/desc/view/allsentlist/mode/manage/tableName/email/pageSize/5/prefix/em/export/icon/startDate/%401678909106/endDate/%401731646799/dateText/Date+Range%3A/dateRange/6/table_filter/VEIS/tagFilter/+/ajaxElement/email" method="post"><div style="display:none;"><input type="hidden" name="_csrf_token" value="529752c4308eae3c9c011a1cee2599372800ddce5410fe472918820c813f3b8e3d08b8b5a3aa2dfc61a6fcae10646b27"></div>                        <ul class="inline pull-right paging">
+                <li>
+                                    </li>
+
+                                                                        <li>
+                        Page                                                    1
+                                                of                                                    <a class="pager-last" href="#" onclick="cancelAllPendingAjax(); new Ajax.Updater('email_table_div', '/email/table/ajax/1/page/1/sort/list_email.sent_at/order/desc/view/allsentlist/mode/manage/tableName/email/pageSize/5/prefix/em/export/icon/startDate/%401678909106/endDate/%401731646799/dateText/Date+Range%3A/dateRange/6/table_filter/VEIS/tagFilter/+/ajaxElement/email', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=a136af4db4c20a22f7caf6056a3b73ae8320c0936e3eef7ffff6ba0a57fa56bb8f91033976c19aaec5fdfdcdee23b58c'});; return false;">1</a>                                            </li>
+                
+                <li class="last">
+                                    </li>
+            </ul>
+            <p class="inline pull-right">
+                                    Showing                                        <select name="pageSize" id="empageSize" onchange="$(&quot;emailform&quot;).onsubmit();return false;" class="input-auto" aria-label="Records per page"><option value="5" selected="selected">5</option>
+<option value="10">10</option>
+<option value="15">15</option>
+<option value="25">25</option>
+<option value="50">50</option>
+</select>                                            of                        <strong>1</strong>                                                                                                                            <input type="hidden" name="view" id="em1_view" value="allsentlist">                                                                                                <input type="hidden" name="mode" id="em1_mode" value="manage">                                                                                                <input type="hidden" name="tableName" id="em1_tableName" value="email">                                                                                                <input type="hidden" name="campaign_id" id="em1_campaign_id" value="">                                                                                                <input type="hidden" name="prospect_id" id="em1_prospect_id" value="">                                                                                                <input type="hidden" name="visitor_id" id="em1_visitor_id" value="">                                                                                                <input type="hidden" name="visit_id" id="em1_visit_id" value="">                                                                                                <input type="hidden" name="user_id" id="em1_user_id" value="">                                                                                                <input type="hidden" name="query" id="em1_query" value="">                                                                                                                                            <input type="hidden" name="prefix" id="em1_prefix" value="em">                                                                                                <input type="hidden" name="export" id="em1_export" value="icon">                                                                                                <input type="hidden" name="startDate" id="em1_startDate" value="@1678909106">                                                                                                <input type="hidden" name="endDate" id="em1_endDate" value="@1731646799">                                                                                                <input type="hidden" name="dateText" id="em1_dateText" value="Date Range:">                                                                                                <input type="hidden" name="dateRange" id="em1_dateRange" value="6">                                                                                                <input type="hidden" name="table_filter" id="em1_table_filter" value="VEIS">                                                                                                <input type="hidden" name="tagFilter" id="em1_tagFilter" value=" ">                                                                        </p>
+                            </form>
+                    </div>
+    </div>
+
+	</div>
+		</div>
+	</div>
+	</div>
+		
+    
+
+
+
+
+	
+	
+
+                
+			<div id="emailTemplateDraft">
+	
+	<div id="emtd_status" style="display:none;" class="ajax_status"></div>
+					
+	
+	
+	<div id="tagFilteremailTemplateDraft" class="tagfilter-pop-up dropdown-menu" style="display: none;"><input type="text" id="tagFilterSearchemailTemplateDraft" value=""><div class="scroller"><ul id="tagFilterSelectoremailTemplateDraft"><li tabindex="0">240521-us-all-cg-wbn-pbm contract-on-demand</li><li tabindex="0">240910-us-all-ce-web-modernize your elevator</li><li tabindex="0">20240910-us-all-ce-web-modernize your elevator-last chance invite</li><li tabindex="0">automation-net new</li><li tabindex="0">campaign member</li><li tabindex="0">competitor</li><li tabindex="0">dedup</li><li tabindex="0">do not email</li><li tabindex="0">emergency services</li><li tabindex="0">employee</li><li tabindex="0">hard bounced</li><li tabindex="0">hospitality fix</li><li tabindex="0">nevada building owners import</li><li tabindex="0">newsletter</li><li tabindex="0">op-building data contact</li><li tabindex="0">profiles</li><li tabindex="0">social source</li><li tabindex="0">subtype fix</li><li tabindex="0">us-send3-g1</li></ul></div><a href="#" onclick="piDataTableTagFilterFactory.clearTags('emailTemplateDraft'); return false;" style="float: left;">Clear filter</a>  <a href="/tag" style="float: right;">Manage tags</a></div><div id="emtd_module" class="module">
+
+		<div class="header clearfix">
+
+										<h2 id="emailTemplateDraft_h2">
+			Email Template Drafts			</h2>
+
+													<form id="emailTemplateDraft_view" class="views inline" onsubmit="new Ajax.Updater('emailTemplateDraft_table_div', '/email/template/draft/table/ajax/1', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emtd_status', true);$('emailTemplateDraft_h2').innerHTML = $('emailTemplateDraft_view_field').options[$('emailTemplateDraft_view_field').selectedIndex].text;}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:$('emailTemplateDraft_ajax_urlparams').value + '&amp;'  + Form.serialize(this) }); return false;" action="/email/template/draft/table/ajax/1" method="post"><div style="display:none;"><input type="hidden" name="_csrf_token" value="91eb53e06fd3578fcb8ef406dd3b4017fbfb7149d375621def352804d06b03fa520a84d70566d81960529f163ff92f15"></div>									<p class="inline header table-views">
+						<label>
+							View:<br>
+							<select name="view" id="emailTemplateDraft_view_field" onchange="$(&quot;emailTemplateDraft_view&quot;).onsubmit();return false;" class="input-auto" aria-label="Select view"><option value="all">All email template drafts</option>
+<option value="email_template_draft.is_one_to_one_email">One to one email template drafts</option>
+<option value="email_template_draft.is_list_email">List email template drafts</option>
+<option value="email_template_draft.is_drip_email">EngagementProgram email template drafts</option>
+<option value="email_template_draft.is_autoresponder_email">Autoresponder email template drafts</option>
+</select>							<input type="hidden" name="view_change" id="view_change" value="true">						</label>
+					</p>
+							</form>
+			
+		
+											<form id="emailTemplateDraft_date_range_form" class="inline" onsubmit="new Ajax.Updater('emailTemplateDraft_table_div', '/email/template/draft/table/ajax/1', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emtd_status', true);}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:$('emailTemplateDraft_ajax_urlparams').value + '&amp;'  + Form.serialize(this) }); return false;" action="/email/template/draft/table/ajax/1" method="post"><div style="display:none;"><input type="hidden" name="_csrf_token" value="91eb53e06fd3578fcb8ef406dd3b4017fbfb7149d375621def352804d06b03fa520a84d70566d81960529f163ff92f15"></div>
+																					<p class="inline header">
+							<label>
+								Campaign:<br>
+								<span title="" class="k-widget k-dropdown k-header" unselectable="on" role="listbox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-owns="campaign_filter_emtd_listbox" aria-disabled="false" aria-readonly="false" style=""><span unselectable="on" class="k-dropdown-wrap k-state-default"><span unselectable="on" class="k-input">All Campaigns</span><span unselectable="on" class="k-select"><span unselectable="on" class="k-icon k-i-arrow-s">select</span></span></span><input type="hidden" name="campaign_filter" id="campaign_filter_emtd" value="0" onchange="$('emailTemplateDraft_date_range_form').onsubmit();" aria-label="Select campaign" data-role="dropdownlist" style="display: none;"></span>
+							</label>
+						</p>
+						<script type="text/javascript">
+							$j(document).ready(function(){
+								var campaign = new CampaignSelector({
+									initialId:		0,
+									initialName:	"",
+									defaultId:		0,
+									defaultName:	"All Campaigns",
+									scope:			'reporting',
+									dropdownElement: jQuery('#campaign_filter_emtd')
+								});
+							});
+						</script>
+														<p class="inline header">
+						<label>
+														
+															<span id="datetext_header">
+																			Date Range: 																	</span> <br>
+							
+							<select name="dateRange" id="dateRange_emtd" onchange="customDates = document.getElementById('emtd_custom_dates');if(this.value==7) {
+									customDates.removeClassName(&quot;hidden&quot;);
+								} else {
+									$('emailTemplateDraft_date_range_form').onsubmit();
+									customDates.addClassName(&quot;hidden&quot;);
+								}" class="input-auto" aria-label="Select date range"><option value="1">Today</option>
+<option value="2">Yesterday</option>
+<option value="4">This Month</option>
+<option value="10">This Quarter</option>
+<option value="11">This Year</option>
+<option value="3">Last 7 Days</option>
+<option value="14">Last Week</option>
+<option value="5">Last Month</option>
+<option value="12">Last Quarter</option>
+<option value="13">Last Year</option>
+<option value="6" selected="selected">All Time</option>
+<option value="7">Custom</option>
+</select>							<span id="emtd_custom_dates" class="datepickerBS inline header hidden">
+																<input type="text" name="startDate" id="emtdstartDate" value="2007-01-01" class="datepicker input-small" aria-label="Date range start date" size="12"><button type="button" onclick="return false" id="trigger_emtdstartDate">...</button><script type="text/javascript">
+    document.getElementById("trigger_emtdstartDate").disabled = false;
+
+    Calendar.setup({
+      inputField : "emtdstartDate",
+      ifFormat : "%Y-%m-%d",
+      daFormat : "%Y-%m-%d",
+      button : "trigger_emtdstartDate"
+    });
+  </script>
+								&nbsp;to&nbsp;
+
+								<input type="text" name="endDate" id="emtdendDate" value="2024-11-14" class="datepicker input-small" aria-label="Date range end date" size="12"><button type="button" onclick="return false" id="trigger_emtdendDate">...</button><script type="text/javascript">
+    document.getElementById("trigger_emtdendDate").disabled = false;
+
+    Calendar.setup({
+      inputField : "emtdendDate",
+      ifFormat : "%Y-%m-%d",
+      daFormat : "%Y-%m-%d",
+      button : "trigger_emtdendDate"
+    });
+  </script>
+								&nbsp;
+								<input type="submit" name="commit" value="Go" class="btn btn-primary">							</span>
+						</label>
+					</p>
+				</form>
+			
+			
+											<form id="emailTemplateDraft_filter" class="inline" onsubmit="new Ajax.Updater('emailTemplateDraft_table_div', '/email/template/draft/table/ajax/1/dateText/Date+Range%3A+', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emtd_status', true);}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:$('emailTemplateDraft_ajax_urlparams').value.replace('table_filter=','') + '&amp;'  + Form.serialize(this) }); return false;" action="/email/template/draft/table/ajax/1/dateText/Date+Range%3A+" method="post"><div style="display:none;"><input type="hidden" name="_csrf_token" value="91eb53e06fd3578fcb8ef406dd3b4017fbfb7149d375621def352804d06b03fa520a84d70566d81960529f163ff92f15"></div>
+					<p class="inline header">
+						<label>
+															Filter:																<br>
+								<input type="text" name="table_filter" id="emailTemplateDraft_table_filter" value="" onkeyup="clearTimeout(hideAllMenusTimeout); hideAllMenusTimeout = setTimeout('$(&quot;emailTemplateDraft_filter&quot;).onsubmit()',600);" class="input-medium" aria-label="Search">														</label>
+					</p>
+				</form>
+													<span class="hide">functional test tag filtering indicator</span>								<br>
+									<form id="emailTemplateDraft_tagFilter" class="aaa inline tag-filter-form" onsubmit="new Ajax.Updater('emailTemplateDraft_table_div', '/email/template/draft/table/ajax/1/dateText/Date+Range%3A+/table_filter', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emtd_status', true);}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:$('emailTemplateDraft_ajax_urlparams').value.replace(new RegExp('[?&amp;]tagFilter=[^&amp;]*'),'') + '&amp;'  + Form.serialize(this) }); return false;" action="/email/template/draft/table/ajax/1/dateText/Date+Range%3A+/table_filter" method="post"><div style="display:none;"><input type="hidden" name="_csrf_token" value="91eb53e06fd3578fcb8ef406dd3b4017fbfb7149d375621def352804d06b03fa520a84d70566d81960529f163ff92f15"></div>					<p class="inline header" id="tagFilterContaineremailTemplateDraft"><button onclick="piDataTableTagFilterFactory.togglePopup('emailTemplateDraft'); return false;" class="btn">Tags<span class="caret"></span></button><span id="tagFilterListemailTemplateDraft"></span><input type="hidden" id="tagFilterInputemailTemplateDraft" name="tagFilter" value=""></p>
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	piDataTableTagFilterFactory.createNew(
+		jQuery("#tagFilterContaineremailTemplateDraft"),
+		"emailTemplateDraft",
+		"240521\x2dus\x2dall\x2dcg\x2dwbn\x2dpbm contract\x2don\x2ddemand\x2c240910\x2dus\x2dall\x2dce\x2dweb\x2dmodernize your elevator\x2c20240910\x2dus\x2dall\x2dce\x2dweb\x2dmodernize your elevator\x2dlast chance invite\x2cautomation\x2dnet new\x2ccampaign member\x2ccompetitor\x2cdedup\x2cdo not email\x2cemergency services\x2cemployee\x2chard bounced\x2chospitality fix\x2cnevada building owners import\x2cnewsletter\x2cop\x2dbuilding data contact\x2cprofiles\x2csocial source\x2csubtype fix\x2cus\x2dsend3\x2dg1",
+		""
+	);
+});
+</script>
+				</form>
+			
+									<div class="btn-group pull-right">
+			  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+			    Tools			    <span class="caret"></span>
+			  </a>
+			  <ul class="dropdown-menu">
+
+															<li><a href="#" onclick="new Ajax.Updater('emtd_status', '/tagObject/tagTableAjax', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emtd_status', true);new Effect.Highlight('emtd_status', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('emtd_table_footer', false); }}, parameters:'ajaxParams='+encodeURIComponent($('emailTemplateDraft_ajax_urlparams').value) + '&amp;ajaxUrl=emailTemplateDraft%2Ftable&amp;objectName=Email+Template+Drafts' + '&amp;_csrf_token=d7463115b2e528969bbc97a55b894be63e4d34beb4c56a7d9e2c63e5e3d510b5d30003a8eb9684734235c8a731d009a6'});; return false;"><i class="icon-tag"></i> Tag Entire Table</a>						</li>
+							  
+										
+				
+																	<li><a onclick="location='/emailTemplateDraft/export?' + $('emailTemplateDraft_ajax_urlparams').value; return false;" href="#"><i class="icon-download-alt"></i> CSV Export</a>					</li>
+							
+									  <li>
+			  	<a onclick="$j(this).parent().parent().parent().removeClass(&quot;open&quot;); window.print();" href="#"><i class="icon-print"></i> Print</a>			  </li>
+		                          </ul>
+			</div>
+			
+						
+																			<span class="link_to_create pull-right">
+											<a href="/email/template/draft/createAjax" id="emtd_link_create" class="btn btn-warning"><i class="icon-plus"></i> Add Email Template</a>
+<script type="text/javascript">
+	jQuery('a#emtd\x5flink\x5fcreate').click(function() {
+
+		// Only do this if we're not already doing something
+		if (!jQuery("#indicator").is(':visible')) {
+			jQuery("#indicator").show();
+
+			if (jQuery('html').is('.ie')) {
+				toggleDisplay("emtd_table_footer", false);
+			}
+
+			jQuery.ajax({
+				url: "/email/template/draft/createAjax",
+				beforeSend: function(jqXHR, settings) {
+					// TODO: Compensate for existing data?
+					settings.data += jQuery("#emtd_ajax_urlparams").attr('value');
+				},
+				complete: function() {
+					jQuery("#indicator").fadeOut();
+				},
+				success: function(data, textStatus, jqXhr) {
+					jQuery("#emtd_status").html(data);
+					toggleDisplay("emtd_status", true);
+					new Effect.Highlight('emtd_status', {duration:2});
+				}
+			});
+		}
+
+		return false;
+	});
+</script>									</span>
+								</div>
+		<div id="emtd_wrapper" class="module-wrapper">
+			<div id="emailTemplateDraft_table_div">
+
+
+<input type="hidden" id="emailTemplateDraft_ajax_urlparams" value="sort=email_template_draft.name&amp;order=desc&amp;view=allsentlist&amp;dateRange=6&amp;tagFilter=+&amp;ajaxElement=emailTemplateDraft&amp;startDate=%401167627600&amp;endDate=now&amp;numResults=7">
+<table id="emailTemplateDraft_table" class="data-table table-bordered">
+                <thead>
+	<tr>
+					
+								
+															<th class="first checkbox-column checkbox">
+											<input type="checkbox" class="check-all" aria-label="Select all rows">
+																				
+						</th>
+					
+								
+																<th class="sortable sort-down name-column">
+												
+															<a aria-label="Name column, sort ascending" href="#" onclick="new Ajax.Updater('emailTemplateDraft\x5ftable\x5fdiv', '/email/template/draft/table/ajax/1/page/1/order/asc/sort/email_template_draft.name/view/allsentlist/dateRange/6/tagFilter/+/ajaxElement/emailTemplateDraft/startDate/%401167627600/endDate/now', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=adba4708a7e9809d064b1fe0aecf9d3bd53bd1369d0cbb6ed00699bf3deede81a2a3302f073f588fb532b86204f4f90d'});; return false;">Name</a>
+		
+							<i class="icon-circle-arrow-down muted"></i>				</th>
+					
+								
+											<th class="updated-column">
+			
+															<a aria-label="Updated column, sort descending" href="#" onclick="new Ajax.Updater('emailTemplateDraft\x5ftable\x5fdiv', '/email/template/draft/table/ajax/1/page/1/order/desc/sort/email_template_draft.updated_at/view/allsentlist/dateRange/6/tagFilter/+/ajaxElement/emailTemplateDraft/startDate/%401167627600/endDate/now', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=42d49ba6145e2640f46ce743004da6f318f065695cd16ea091dcdd313362d72eecb3ce493656f999d6d1a3d3de4ddf99'});; return false;">Updated</a>
+		
+						</th>
+					
+								
+											<th class="actions-column last">
+										Actions					
+						</th>
+		</tr>
+</thead>
+    
+            <tbody>
+                    <tr class="" id="emailTemplateDraft_row_a0">
+                                                                            
+                    <td class="first checkbox">
+                        <input type="checkbox" name="checkbox_emailTemplateDraft_17470" id="checkbox_emailTemplateDraft_17470" value="17470" class="datatable-checkbox" aria-label="Select row">                    </td>
+                                                                            
+                    <td>
+                        
+        
+	
+	<a href="/email/template/draft/read/id/17470">[Master Template] - Webinar-Event</a>
+			<br>
+		<span style="font-size: 12px; color: #999">
+			<i class="icon icon-folder-close"></i>
+						<a href="/folder#/20682" aria-label="Folder: /Master Templates">
+				/Master Templates			</a>
+		</span>
+	                    </td>
+                                                                            
+                    <td>
+                        May 23, 2024 1:00 PM                    </td>
+                                                                            
+                    <td class="new-actions last">
+                        <div class="actions-menu-wrapper">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog muted" aria-label="Row actions"></i></a>	<ul class="dropdown-menu pull-right" role="menu">
+
+									<li><a href="/email/template/draft/edit/source/data_table/id/17470"><i class="icon-edit muted" title="Copy"></i> Building</a></li>
+				<li><a href="/email/template/draft/test/source/data_table/id/17470"><i class="icon-bullseye muted" title="Copy"></i> Testing</a></li>
+				<li><a href="/email/template/draft/send/source/data_table/id/17470"><i class="icon-inbox muted" title="Copy"></i> Sending</a></li>
+						<li>
+				<a href="#" onclick="new Ajax.Updater('emailTemplateDraft_row_b_cell0', '/email/template/draft/viewTemplate/id/17470', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emailTemplateDraft_row_b0');new Effect.Highlight('emailTemplateDraft_row_b0', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=5168fddf37ddfcfe190ebbc7f260fd132475fc374d0e6e9f4a362029b15a7ee7b7ee596761acd1870e748bcf0f3cee9c'});; return false;"><i class="icon-envelope-alt muted" title="View Template"></i> View Template</a>			</li>
+			<li>
+									<a href="#" onclick="new Ajax.Updater('emailTemplateDraft_row_b_cell0', '/email/template/draft/copyAjax/id/17470/prefix/emailTemplateDraft', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emailTemplateDraft_row_b0', true);if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('emailTemplateDraft_table_footer', false); }new Effect.Highlight('emailTemplateDraft_row_b_cell0', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=3e2570ed123e2906aa4f8da97466088d8875be2f81f2fa39898b65be86054190bffc2d122a8a7b9050812634ebe6ad23'});; return false;"><i class="icon-copy muted" title="Copy"></i> Copy</a>							</li>
+		
+					<li><a href="#" onclick="if (window.confirm('Are you sure?')) { new Ajax.Updater('emailTemplateDraft_row_b_cell0', '/email/template/draft/delete/id/17470/prefix/emailTemplateDraft', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplayAnimated('emailTemplateDraft_row_a0', false, null, true);if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('emailTemplateDraft_table_footer', false); }}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=125d71331761ec4649605087146078ec4bc45a525a5001e78a016fb7155558263dd41873d1bf8af36b74131deff056ef'}); };; return false;"><i class="icon-trash muted" title="Delete"></i> Delete</a></li>
+					</ul>
+</div>
+                    </td>
+                            </tr>
+            <tr style="display:none" id="emailTemplateDraft_row_b0" class="ajax_row">
+                <td colspan="4" id="emailTemplateDraft_row_b_cell0" class="last"></td>
+            </tr>
+                    <tr class="even" id="emailTemplateDraft_row_a1">
+                                                                            
+                    <td class="first checkbox">
+                        <input type="checkbox" name="checkbox_emailTemplateDraft_17467" id="checkbox_emailTemplateDraft_17467" value="17467" class="datatable-checkbox" aria-label="Select row">                    </td>
+                                                                            
+                    <td>
+                        
+        
+	
+	<a href="/email/template/draft/read/id/17467">[Master Template] - Newsletter</a>
+			<br>
+		<span style="font-size: 12px; color: #999">
+			<i class="icon icon-folder-close"></i>
+						<a href="/folder#/20682" aria-label="Folder: /Master Templates">
+				/Master Templates			</a>
+		</span>
+	                    </td>
+                                                                            
+                    <td>
+                        Oct 24, 2024 10:35 AM                    </td>
+                                                                            
+                    <td class="new-actions last">
+                        <div class="actions-menu-wrapper">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog muted" aria-label="Row actions"></i></a>	<ul class="dropdown-menu pull-right" role="menu">
+
+									<li><a href="/email/template/draft/edit/source/data_table/id/17467"><i class="icon-edit muted" title="Copy"></i> Building</a></li>
+				<li><a href="/email/template/draft/test/source/data_table/id/17467"><i class="icon-bullseye muted" title="Copy"></i> Testing</a></li>
+				<li><a href="/email/template/draft/send/source/data_table/id/17467"><i class="icon-inbox muted" title="Copy"></i> Sending</a></li>
+						<li>
+				<a href="#" onclick="new Ajax.Updater('emailTemplateDraft_row_b_cell1', '/email/template/draft/viewTemplate/id/17467', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emailTemplateDraft_row_b1');new Effect.Highlight('emailTemplateDraft_row_b1', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=481f6c59c6723a07f4e4d34992b5c2eac3e9ef4f0d70b177b51b11d7b3bbb54feaf0cf389d980aeef5cd03de9007e9d7'});; return false;"><i class="icon-envelope-alt muted" title="View Template"></i> View Template</a>			</li>
+			<li>
+									<a href="#" onclick="new Ajax.Updater('emailTemplateDraft_row_b_cell1', '/email/template/draft/copyAjax/id/17467/prefix/emailTemplateDraft', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emailTemplateDraft_row_b1', true);if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('emailTemplateDraft_table_footer', false); }new Effect.Highlight('emailTemplateDraft_row_b_cell1', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=1f3d6a6f21f0ab249ea0cd0e021ad6a149574bf1ed9039129577cfd968c819b0ef330197f8386ce31edd9fb646d0da6a'});; return false;"><i class="icon-copy muted" title="Copy"></i> Copy</a>							</li>
+		
+					<li><a href="#" onclick="if (window.confirm('Are you sure?')) { new Ajax.Updater('emailTemplateDraft_row_b_cell1', '/email/template/draft/delete/id/17467/prefix/emailTemplateDraft', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplayAnimated('emailTemplateDraft_row_a1', false, null, true);if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('emailTemplateDraft_table_footer', false); }}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=ab8c29a6924bece5934b888ecf1191e3c07cc9f9cc1f0c5aef4dd5f6c63c05efe242c7a426fc0984418af6e2595eb7fb'}); };; return false;"><i class="icon-trash muted" title="Delete"></i> Delete</a></li>
+					</ul>
+</div>
+                    </td>
+                            </tr>
+            <tr style="display:none" id="emailTemplateDraft_row_b1" class="ajax_row">
+                <td colspan="4" id="emailTemplateDraft_row_b_cell1" class="last"></td>
+            </tr>
+                    <tr class="" id="emailTemplateDraft_row_a2">
+                                                                            
+                    <td class="first checkbox">
+                        <input type="checkbox" name="checkbox_emailTemplateDraft_3454" id="checkbox_emailTemplateDraft_3454" value="3454" class="datatable-checkbox" aria-label="Select row">                    </td>
+                                                                            
+                    <td>
+                        
+        
+	
+	<a href="/email/template/draft/read/id/3454">Test-CL</a>
+			<br>
+		<span style="font-size: 12px; color: #999">
+			<i class="icon icon-folder-close"></i>
+						<a href="/folder#/13515" aria-label="Folder: /Uncategorized/Email Templates">
+				/Uncategorized/Email Templates			</a>
+		</span>
+	                    </td>
+                                                                            
+                    <td>
+                        Apr 17, 2023 1:13 PM                    </td>
+                                                                            
+                    <td class="new-actions last">
+                        <div class="actions-menu-wrapper">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog muted" aria-label="Row actions"></i></a>	<ul class="dropdown-menu pull-right" role="menu">
+
+									<li><a href="/email/template/draft/edit/source/data_table/id/3454"><i class="icon-edit muted" title="Copy"></i> Building</a></li>
+				<li><a href="/email/template/draft/test/source/data_table/id/3454"><i class="icon-bullseye muted" title="Copy"></i> Testing</a></li>
+				<li><a href="/email/template/draft/send/source/data_table/id/3454"><i class="icon-inbox muted" title="Copy"></i> Sending</a></li>
+						<li>
+				<a href="#" onclick="new Ajax.Updater('emailTemplateDraft_row_b_cell2', '/email/template/draft/viewTemplate/id/3454', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emailTemplateDraft_row_b2');new Effect.Highlight('emailTemplateDraft_row_b2', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=c3e227c02f50f9bc05d154bfd1764d31fb32a2bb5700a79e82238e9160afd7db6e81893b5218fb8d44dbc07ba9c242e7'});; return false;"><i class="icon-envelope-alt muted" title="View Template"></i> View Template</a>			</li>
+			<li>
+									<a href="#" onclick="new Ajax.Updater('emailTemplateDraft_row_b_cell2', '/email/template/draft/copyAjax/id/3454/prefix/emailTemplateDraft', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emailTemplateDraft_row_b2', true);if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('emailTemplateDraft_table_footer', false); }new Effect.Highlight('emailTemplateDraft_row_b_cell2', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=d8fda1a3f14f2cba71b7f1d3c395d14363c53e2d4afb1770067fc40fc5ee83880198bdc6ba2feb9741340afc1c81ed9d'});; return false;"><i class="icon-copy muted" title="Copy"></i> Copy</a>							</li>
+		
+					<li><a href="#" onclick="if (window.confirm('Are you sure?')) { new Ajax.Updater('emailTemplateDraft_row_b_cell2', '/email/template/draft/delete/id/3454/prefix/emailTemplateDraft', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplayAnimated('emailTemplateDraft_row_a2', false, null, true);if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('emailTemplateDraft_table_footer', false); }}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=045a14b54402e76bdfc3a264f0ecc2aff66d1e5d5d4c170ecd2eca8bf71cef562426b792ccd258bb48d85168beddf415'}); };; return false;"><i class="icon-trash muted" title="Delete"></i> Delete</a></li>
+					</ul>
+</div>
+                    </td>
+                            </tr>
+            <tr style="display:none" id="emailTemplateDraft_row_b2" class="ajax_row">
+                <td colspan="4" id="emailTemplateDraft_row_b_cell2" class="last"></td>
+            </tr>
+                    <tr class="even" id="emailTemplateDraft_row_a3">
+                                                                            
+                    <td class="first checkbox">
+                        <input type="checkbox" name="checkbox_emailTemplateDraft_3247" id="checkbox_emailTemplateDraft_3247" value="3247" class="datatable-checkbox" aria-label="Select row">                    </td>
+                                                                            
+                    <td>
+                        
+        
+	
+	<a href="/email/template/draft/read/id/3247">Test Email</a>
+			<br>
+		<span style="font-size: 12px; color: #999">
+			<i class="icon icon-folder-close"></i>
+						<a href="/folder#/13518" aria-label="Folder: /Uncategorized/Email Template Drafts">
+				/Uncategorized/Email Template Drafts			</a>
+		</span>
+	                    </td>
+                                                                            
+                    <td>
+                        Apr 13, 2023 9:29 AM                    </td>
+                                                                            
+                    <td class="new-actions last">
+                        <div class="actions-menu-wrapper">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog muted" aria-label="Row actions"></i></a>	<ul class="dropdown-menu pull-right" role="menu">
+
+									<li><a href="/email/template/draft/edit/source/data_table/id/3247"><i class="icon-edit muted" title="Copy"></i> Building</a></li>
+				<li><a href="/email/template/draft/test/source/data_table/id/3247"><i class="icon-bullseye muted" title="Copy"></i> Testing</a></li>
+				<li><a href="/email/template/draft/send/source/data_table/id/3247"><i class="icon-inbox muted" title="Copy"></i> Sending</a></li>
+						<li>
+				<a href="#" onclick="new Ajax.Updater('emailTemplateDraft_row_b_cell3', '/email/template/draft/viewTemplate/id/3247', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emailTemplateDraft_row_b3');new Effect.Highlight('emailTemplateDraft_row_b3', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=fff82ccfe41790edfabfaa66719d773f5ba85a48035629c871e4813e79f14591336e7f41ec866128f486a44794d80ae9'});; return false;"><i class="icon-envelope-alt muted" title="View Template"></i> View Template</a>			</li>
+			<li>
+									<a href="#" onclick="new Ajax.Updater('emailTemplateDraft_row_b_cell3', '/email/template/draft/copyAjax/id/3247/prefix/emailTemplateDraft', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emailTemplateDraft_row_b3', true);if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('emailTemplateDraft_table_footer', false); }new Effect.Highlight('emailTemplateDraft_row_b_cell3', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=f518c3a5dd45e240d56d66f9c221984c733944a13afd244158371545d9c3dcd01750ad268744140a24bccdf762eeab21'});; return false;"><i class="icon-copy muted" title="Copy"></i> Copy</a>							</li>
+		
+					<li><a href="#" onclick="if (window.confirm('Are you sure?')) { new Ajax.Updater('emailTemplateDraft_row_b_cell3', '/email/template/draft/delete/id/3247/prefix/emailTemplateDraft', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplayAnimated('emailTemplateDraft_row_a3', false, null, true);if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('emailTemplateDraft_table_footer', false); }}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=8e4ace1edd50861f43e4db1d6c9c50cc6481a1f2978e7801748a749fc6bf93e6c1c8d13f9f704a45422c541074227816'}); };; return false;"><i class="icon-trash muted" title="Delete"></i> Delete</a></li>
+					</ul>
+</div>
+                    </td>
+                            </tr>
+            <tr style="display:none" id="emailTemplateDraft_row_b3" class="ajax_row">
+                <td colspan="4" id="emailTemplateDraft_row_b_cell3" class="last"></td>
+            </tr>
+                    <tr class="" id="emailTemplateDraft_row_a4">
+                                                                            
+                    <td class="first checkbox">
+                        <input type="checkbox" name="checkbox_emailTemplateDraft_24855" id="checkbox_emailTemplateDraft_24855" value="24855" class="datatable-checkbox" aria-label="Select row">                    </td>
+                                                                            
+                    <td>
+                        
+        
+	
+	<a href="/email/template/draft/read/id/24855">AscendAlert_Consult</a>
+			<br>
+		<span style="font-size: 12px; color: #999">
+			<i class="icon icon-folder-close"></i>
+						<a href="/folder#/26595" aria-label="Folder: /AscendAlert">
+				/AscendAlert			</a>
+		</span>
+	                    </td>
+                                                                            
+                    <td>
+                        Jul 11, 2024 9:45 AM                    </td>
+                                                                            
+                    <td class="new-actions last">
+                        <div class="actions-menu-wrapper">
+	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-cog muted" aria-label="Row actions"></i></a>	<ul class="dropdown-menu pull-right" role="menu">
+
+									<li><a href="/email/template/draft/edit/source/data_table/id/24855"><i class="icon-edit muted" title="Copy"></i> Building</a></li>
+				<li><a href="/email/template/draft/test/source/data_table/id/24855"><i class="icon-bullseye muted" title="Copy"></i> Testing</a></li>
+				<li><a href="/email/template/draft/send/source/data_table/id/24855"><i class="icon-inbox muted" title="Copy"></i> Sending</a></li>
+						<li>
+				<a href="#" onclick="new Ajax.Updater('emailTemplateDraft_row_b_cell4', '/email/template/draft/viewTemplate/id/24855', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emailTemplateDraft_row_b4');new Effect.Highlight('emailTemplateDraft_row_b4', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=b9ec88ea5f37cd826ff9fd10d0f65cea8d3ae41c9d9cb5b1436309d0423ca6cff96aebcfcd64f885fdf4c29337f57686'});; return false;"><i class="icon-envelope-alt muted" title="View Template"></i> View Template</a>			</li>
+			<li>
+									<a href="#" onclick="new Ajax.Updater('emailTemplateDraft_row_b_cell4', '/email/template/draft/copyAjax/id/24855/prefix/emailTemplateDraft', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emailTemplateDraft_row_b4', true);if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('emailTemplateDraft_table_footer', false); }new Effect.Highlight('emailTemplateDraft_row_b_cell4', {duration:2});}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=744444726ca65eb87afe3076b6f544ae96a91997cbe249f1da094b23cf18c2b25a2de1663153aabe26e2cbb911894678'});; return false;"><i class="icon-copy muted" title="Copy"></i> Copy</a>							</li>
+		
+					<li><a href="#" onclick="if (window.confirm('Are you sure?')) { new Ajax.Updater('emailTemplateDraft_row_b_cell4', '/email/template/draft/delete/id/24855/prefix/emailTemplateDraft', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplayAnimated('emailTemplateDraft_row_a4', false, null, true);if (navigator.userAgent &amp;&amp; navigator.userAgent.indexOf('MSIE') != -1) {toggleDisplay('emailTemplateDraft_table_footer', false); }}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=c98dc121bf2b27d8396a23b7107904fb112c28d3f129be87aa1fd88ffc3ed5c545d9a565a3f2982126381d616b22b227'}); };; return false;"><i class="icon-trash muted" title="Delete"></i> Delete</a></li>
+					</ul>
+</div>
+                    </td>
+                            </tr>
+            <tr style="display:none" id="emailTemplateDraft_row_b4" class="ajax_row">
+                <td colspan="4" id="emailTemplateDraft_row_b_cell4" class="last"></td>
+            </tr>
+                        </tbody>
+
+    
+</table>
+
+    
+    
+    <div class="table-foot clearfix">
+        <div id="emtd_table_footer">
+                                        <form action="#" class="inline pull-left">
+                    <input type="hidden" name="check_all_params" value="&amp;view=allsentlist&amp;dateRange=6&amp;tagFilter=+&amp;ajaxElement=emailTemplateDraft&amp;startDate=%401167627600&amp;endDate=now">
+                                        <div class="multi-checkbox-buttons pull-left">
+                        <label for="multi-select" class="batch-action-label">
+                            With <span class="checkbox-num-selected">0</span> selected:                        </label>
+
+                                                <select name="multi-select" id="multi-select" onchange="
+				if (this.value == &quot;multiAddTags&quot;) {
+					jQuery(this).siblings(&quot;.MultiSelect_AddTags&quot;).show();
+				}
+				else {
+					jQuery(this).siblings(&quot;.MultiSelect_AddTags&quot;).hide();
+				}
+			
+				if (this.value == &quot;multiRemoveTags&quot;) {
+					jQuery(this).siblings(&quot;.MultiSelect_RemoveTags&quot;).show();
+				}
+				else {
+					jQuery(this).siblings(&quot;.MultiSelect_RemoveTags&quot;).hide();
+				}
+			
+				if (this.value == &quot;multiEnableEmailTemplate&quot;) {
+					jQuery(this).siblings(&quot;.multiEnableEmailTemplate&quot;).show();
+				}
+				else {
+					jQuery(this).siblings(&quot;.multiEnableEmailTemplate&quot;).hide();
+				}
+			
+				if (this.value == &quot;multiDisableEmailTemplate&quot;) {
+					jQuery(this).siblings(&quot;.multiDisableEmailTemplate&quot;).show();
+				}
+				else {
+					jQuery(this).siblings(&quot;.multiDisableEmailTemplate&quot;).hide();
+				}
+			
+				if (this.value == &quot;multiAddToFolder&quot;) {
+					jQuery(this).siblings(&quot;.MultiSelect_AddToFolder&quot;).show();
+				}
+				else {
+					jQuery(this).siblings(&quot;.MultiSelect_AddToFolder&quot;).hide();
+				}
+			
+				if (this.value == &quot;deletes&quot;) {
+					jQuery(this).siblings(&quot;.MultiSelect_Delete&quot;).show();
+				}
+				else {
+					jQuery(this).siblings(&quot;.MultiSelect_Delete&quot;).hide();
+				}
+			" class="multi-select input-auto" aria-label="Choose batch action to execute on selected items"><option value="" selected="selected">&nbsp;</option>
+<option value="multiAddTags">Add tags</option>
+<option value="deletes">Delete</option>
+<option value="multiDisableEmailTemplate">Disable template for</option>
+<option value="multiEnableEmailTemplate">Enable template for</option>
+<option value="multiAddToFolder">Move to folder</option>
+<option value="multiRemoveTags">Remove tags</option>
+</select>
+                                                <span class="MultiSelect_AddTags" style="display: none;"><input name="addTags" class="tagComponent tagComponentReady" id="addTagsMultiSelect_AddTags2" value="" style="display: none;"><div id="addTagsMultiSelect_AddTags2_tagsinput" class="tagsinput" style="margin-top: -1px;"><div id="addTagsMultiSelect_AddTags2_addTag"><input id="addTagsMultiSelect_AddTags2_tag" value="" placeholder="add a tag" class="ui-autocomplete-input not_valid" autocomplete="off" aria-labeledby="tags-input-label" style="color: rgb(102, 102, 102); width: 206px;"></div><div class="tags_clear"></div></div>
+
+<script type="text/javascript">
+//<![CDATA[
+
+		$j(document).ready(function(){
+			jQuery(".tagComponent:not(.tagComponentReady):not([name$=\"_template\"])").tagsInput({
+				
+				"autocomplete_url": "/tag/autocomplete",
+				"denyNewTagCreation": false,
+				"width":"202px",
+				"height":"28px",
+			}).addClass("tagComponentReady");
+			jQuery(".ui-autocomplete-input").attr("aria-labeledby", "tags-input-label");
+		});
+//]]>
+</script></span><span class="MultiSelect_RemoveTags" style="display: none;"><input name="removeTags" class="tagComponent tagComponentReady" id="removeTagsMultiSelect_RemoveTags2" value="" style="display: none;"><div id="removeTagsMultiSelect_RemoveTags2_tagsinput" class="tagsinput" style="margin-top: -1px;"><div id="removeTagsMultiSelect_RemoveTags2_addTag"><input id="removeTagsMultiSelect_RemoveTags2_tag" value="" placeholder="add a tag" class="ui-autocomplete-input not_valid" autocomplete="off" aria-labeledby="tags-input-label" style="color: rgb(102, 102, 102); width: 206px;"></div><div class="tags_clear"></div></div>
+
+<script type="text/javascript">
+//<![CDATA[
+
+		$j(document).ready(function(){
+			jQuery(".tagComponent:not(.tagComponentReady):not([name$=\"_template\"])").tagsInput({
+				"defaultText": "remove a tag",
+				"autocomplete_url": "/tag/autocomplete",
+				"denyNewTagCreation": false,
+				"width":"202px",
+				"height":"28px",
+			}).addClass("tagComponentReady");
+			jQuery(".ui-autocomplete-input").attr("aria-labeledby", "tags-input-label");
+		});
+//]]>
+</script></span><span class="multiEnableEmailTemplate" style="display: none;"><select name="multiEnableEmailTemplate" id="multiEnableEmailTemplate" class="multi-select"><option value="email_template_draft.is_one_to_one_email">One to one email template drafts</option>
+<option value="email_template_draft.is_list_email">List email template drafts</option>
+<option value="email_template_draft.is_drip_email">EngagementProgram email template drafts</option>
+<option value="email_template_draft.is_autoresponder_email">Autoresponder email template drafts</option>
+</select></span><span class="multiDisableEmailTemplate" style="display: none;"><select name="multiDisableEmailTemplate" id="multiDisableEmailTemplate" class="multi-select"><option value="email_template_draft.is_one_to_one_email">One to one email template drafts</option>
+<option value="email_template_draft.is_list_email">List email template drafts</option>
+<option value="email_template_draft.is_drip_email">EngagementProgram email template drafts</option>
+<option value="email_template_draft.is_autoresponder_email">Autoresponder email template drafts</option>
+</select></span><div class="MultiSelect_AddToFolder inline" style="display: none; margin-right: 5px;"><input type="hidden" name="object_type" value="48"><div class="input-prepend input-append folder-chooser inline">
+			<span class="add-on" onclick="repositionModalForPla(this, 'asset-chooser-app-modal', 300);AssetChooserApp.chooseFolder(jQuery(this).parent())" style="cursor: pointer;"><i class="icon-folder-open-alt"></i></span>
+		<span class="input-xlarge uneditable-input default-size folder-name" style="cursor: pointer;" onclick="repositionModalForPla(this, 'asset-chooser-app-modal', 300);AssetChooserApp.chooseFolder(jQuery(this).parent())">Choose A Folder</span>
+	<input type="hidden" id="folder_id" name="folder_id" value="">
+	<button class="btn choose-asset" type="button" onclick="repositionModalForPla(this, 'asset-chooser-app-modal', 300);AssetChooserApp.chooseFolder(jQuery(this).parent())" aria-label="Choose A Folder">Choose</button>
+</div>
+
+
+
+</div><span class="MultiSelect_Delete" style="display: none;"></span>
+
+                        <input class="btn" type="button" onclick="if(confirmBatchAction(&quot;emailTemplateDraft&quot;, &quot;Email Template Drafts&quot;)){new Ajax.Updater('emtd_status', '/email/template/draft/table/objectName/Email+Template+Drafts/view/allsentlist/dateRange/6/tagFilter/+/ajaxElement/emailTemplateDraft/startDate/%401167627600/endDate/now', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emtd_status', true);}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:Form.serialize(this.form) + '&amp;_csrf_token=59d276098b8f40ebcf2d55fccefc98f71d405392dee3691c86b48dddf910668bd96c24a8c6d58367bbeccb0edf9a6d82'});} return false;" name="ajax_submit" value="Go"><input type="hidden" name="multiCheckIds" id="" value="" class="multiCheckIds">
+                    </div>
+                </form>
+                                        <form id="emailTemplateDraftform" class="inline emtd-pager-form pager-form" onsubmit="new Ajax.Updater('emailTemplateDraft_table_div', '/email/template/draft/table/ajax/1/sort/email_template_draft.name/order/desc/view/allsentlist/dateRange/6/tagFilter/+/ajaxElement/emailTemplateDraft/startDate/%401167627600/endDate/now', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();toggleDisplay('emtd_status', true);}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:Form.serialize(this)}); return false;" action="/email/template/draft/table/ajax/1/sort/email_template_draft.name/order/desc/view/allsentlist/dateRange/6/tagFilter/+/ajaxElement/emailTemplateDraft/startDate/%401167627600/endDate/now" method="post"><div style="display:none;"><input type="hidden" name="_csrf_token" value="91eb53e06fd3578fcb8ef406dd3b4017fbfb7149d375621def352804d06b03fa520a84d70566d81960529f163ff92f15"></div>                        <ul class="inline pull-right paging">
+                <li>
+                                    </li>
+
+                                                                        <li>
+                        Page                                                                                <input type="text" name="page" id="page" value="1" 0="id=page_emailTemplateDraft" aria-label="Jump to page" class="text-tiny" style="width: 18px;">                            <script>$j(".text-tiny").each(textTinyResize);</script>
+                                                of                                                    <a class="pager-last" href="#" onclick="cancelAllPendingAjax(); new Ajax.Updater('emailTemplateDraft_table_div', '/email/template/draft/table/ajax/1/page/2/sort/email_template_draft.name/order/desc/view/allsentlist/dateRange/6/tagFilter/+/ajaxElement/emailTemplateDraft/startDate/%401167627600/endDate/now', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=f1166b5cdc4830bf406efb7eedcbff780e1efb47bb88969cae81827e299d9b59bc71aae1bbd229e338c947c41018baa2'});; return false;">2</a>                                            </li>
+                
+                <li class="last">
+                                                                                            <a class="pager-next" href="#" onclick="cancelAllPendingAjax(); new Ajax.Updater('emailTemplateDraft_table_div', '/email/template/draft/table/ajax/1/page/2/sort/email_template_draft.name/order/desc/view/allsentlist/dateRange/6/tagFilter/+/ajaxElement/emailTemplateDraft/startDate/%401167627600/endDate/now', {asynchronous:true, evalScripts:true, onComplete:function(request, json){$j(&quot;#indicator&quot;).fadeOut();}, onLoading:function(request, json){$j(&quot;#indicator&quot;).show();}, parameters:'_csrf_token=cbd32e85c63081a21ae2f3d29f7034572a234a5fc68d81f4f00762553d76bcc8174cb8415fb71ee10b0341aab7ed1dd8'});; return false;">Next»</a>                                    </li>
+            </ul>
+            <p class="inline pull-right">
+                                    Showing                                        <select name="pageSize" id="emtdpageSize" onchange="$(&quot;emailTemplateDraftform&quot;).onsubmit();return false;" class="input-auto" aria-label="Records per page"><option value="5" selected="selected">5</option>
+<option value="10">10</option>
+<option value="15">15</option>
+<option value="25">25</option>
+<option value="50">50</option>
+</select>                                            of                        <strong>7</strong>                                                                                                                            <input type="hidden" name="view" id="emtd1_view" value="allsentlist">                                                                                                <input type="hidden" name="dateRange" id="emtd1_dateRange" value="6">                                                                                                <input type="hidden" name="tagFilter" id="emtd1_tagFilter" value=" ">                                                                        </p>
+                            </form>
+                    </div>
+    </div>
+
+
+	
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+							</div>
+						</div><div id="asset-chooser-app" class="ember-application"><div id="ember382" class="ember-view">
+
+<div id="asset-chooser-app-modal" class="ipardot-container ember-view modal scrollable-modal hide" data-backdrop="static" data-keyboard="false" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3><script id="metamorph-2-start" type="text/x-placeholder"></script>Please make a selection<script id="metamorph-2-end" type="text/x-placeholder"></script></h3>
+			</div>
+			<div id="asset-chooser-alert"></div>
+			<div class="modal-body asset-modal">
+
+				<div class="folders-app-container row-fluid">
+					<div class="folders-stage-left span3">
+						<div class="accordion" id="folders-accordion">
+
+							
+							<div class="accordion-group with-tags" data-bindattr-1="1">
+								<div id="ember402" class="ember-view accordion-heading">
+<a data-toggle="collapse" class="pull-left accordion-toggle" data-path-name="folder" data-parent="folders-accordion" href="folders-collapse" style="width:58%" data-bindattr-2="2">
+	<i class="icon-folder-close" data-bindattr-3="3"></i> <script id="metamorph-3-start" type="text/x-placeholder"></script>Folders<script id="metamorph-3-end" type="text/x-placeholder"></script>
+</a>
+
+<script id="metamorph-4-start" type="text/x-placeholder"></script>
+	<script id="metamorph-5-start" type="text/x-placeholder"></script>
+		<a id="ember409" class="ember-view pull-right accordion-toggle active" href="/search">
+			<i class="icon-search" data-toggle="tooltip" data-placement="right" title="Search Through All Folders"></i>
+		</a>
+	<script id="metamorph-5-end" type="text/x-placeholder"></script>
+<script id="metamorph-4-end" type="text/x-placeholder"></script>
+
+<div class="clearfix"></div>
+</div>
+								<div id="folders-collapse" class="accordion-body in collapse">
+									<div class="accordion-inner tree-container" data-bindattr-4="4">
+										<div id="ember419" class="ember-view tree-node"><script id="metamorph-6-start" type="text/x-placeholder"></script>
+	<div id="ember439" class="ember-view">
+		<script id="metamorph-7-start" type="text/x-placeholder"></script><script id="metamorph-7-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember448" class="ember-view"><div id="ember449" class="ember-view">
+	<a id="ember450" class="ember-view no-icon" href="/root">
+		<i id="ember463" class="ember-view icon-folder-open"></i> <script id="metamorph-8-start" type="text/x-placeholder"></script><script id="metamorph-8-end" type="text/x-placeholder"></script>
+		<script id="metamorph-9-start" type="text/x-placeholder"></script><script id="metamorph-9-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-10-start" type="text/x-placeholder"></script><script id="metamorph-10-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-11-start" type="text/x-placeholder"></script><script id="metamorph-11-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-12-start" type="text/x-placeholder"></script>
+		<script id="metamorph-21-start" type="text/x-placeholder"></script><script id="metamorph-60-start" type="text/x-placeholder"></script>
+		<div id="ember601" class="ember-view tree-node child-node"><script id="metamorph-72-start" type="text/x-placeholder"></script>
+	<div id="ember603" class="ember-view">
+		<script id="metamorph-73-start" type="text/x-placeholder"></script><script id="metamorph-73-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember606" class="ember-view"><div id="ember607" class="ember-view">
+	<a id="ember608" class="ember-view no-icon" href="/27250">
+		<i id="ember609" class="ember-view icon-folder-close"></i> <script id="metamorph-74-start" type="text/x-placeholder"></script>240910-US-ALL-CE-WEB-Modernize Your Elevator<script id="metamorph-74-end" type="text/x-placeholder"></script>
+		<script id="metamorph-75-start" type="text/x-placeholder"></script><script id="metamorph-75-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-76-start" type="text/x-placeholder"></script><script id="metamorph-76-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-77-start" type="text/x-placeholder"></script><script id="metamorph-77-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-78-start" type="text/x-placeholder"></script><script id="metamorph-78-end" type="text/x-placeholder"></script>
+<script id="metamorph-72-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-60-end" type="text/x-placeholder"></script><script id="metamorph-61-start" type="text/x-placeholder"></script>
+		<div id="ember614" class="ember-view tree-node child-node"><script id="metamorph-79-start" type="text/x-placeholder"></script>
+	<div id="ember616" class="ember-view">
+		<script id="metamorph-80-start" type="text/x-placeholder"></script>
+			<script id="metamorph-81-start" type="text/x-placeholder"></script>
+			<span class="pull-left" data-ember-action="10">
+				<i class="icon icon-expand-alt"></i>
+			</span>
+			<script id="metamorph-81-end" type="text/x-placeholder"></script>
+		<script id="metamorph-80-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember620" class="ember-view"><div id="ember621" class="ember-view">
+	<a id="ember622" class="ember-view" href="/20685">
+		<i id="ember623" class="ember-view icon-folder-close"></i> <script id="metamorph-82-start" type="text/x-placeholder"></script>All Services<script id="metamorph-82-end" type="text/x-placeholder"></script>
+		<script id="metamorph-83-start" type="text/x-placeholder"></script><script id="metamorph-83-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-84-start" type="text/x-placeholder"></script><script id="metamorph-84-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-85-start" type="text/x-placeholder"></script><script id="metamorph-85-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-86-start" type="text/x-placeholder"></script><script id="metamorph-86-end" type="text/x-placeholder"></script>
+<script id="metamorph-79-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-61-end" type="text/x-placeholder"></script><script id="metamorph-62-start" type="text/x-placeholder"></script>
+		<div id="ember628" class="ember-view tree-node child-node"><script id="metamorph-87-start" type="text/x-placeholder"></script>
+	<div id="ember630" class="ember-view">
+		<script id="metamorph-88-start" type="text/x-placeholder"></script><script id="metamorph-88-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember633" class="ember-view"><div id="ember634" class="ember-view">
+	<a id="ember635" class="ember-view no-icon" href="/26595">
+		<i id="ember636" class="ember-view icon-folder-close"></i> <script id="metamorph-89-start" type="text/x-placeholder"></script>AscendAlert<script id="metamorph-89-end" type="text/x-placeholder"></script>
+		<script id="metamorph-90-start" type="text/x-placeholder"></script><script id="metamorph-90-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-91-start" type="text/x-placeholder"></script><script id="metamorph-91-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-92-start" type="text/x-placeholder"></script><script id="metamorph-92-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-93-start" type="text/x-placeholder"></script><script id="metamorph-93-end" type="text/x-placeholder"></script>
+<script id="metamorph-87-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-62-end" type="text/x-placeholder"></script><script id="metamorph-63-start" type="text/x-placeholder"></script>
+		<div id="ember641" class="ember-view tree-node child-node"><script id="metamorph-94-start" type="text/x-placeholder"></script>
+	<div id="ember643" class="ember-view">
+		<script id="metamorph-95-start" type="text/x-placeholder"></script>
+			<script id="metamorph-96-start" type="text/x-placeholder"></script>
+			<span class="pull-left" data-ember-action="11">
+				<i class="icon icon-expand-alt"></i>
+			</span>
+			<script id="metamorph-96-end" type="text/x-placeholder"></script>
+		<script id="metamorph-95-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember647" class="ember-view"><div id="ember648" class="ember-view">
+	<a id="ember649" class="ember-view" href="/20688">
+		<i id="ember650" class="ember-view icon-folder-close"></i> <script id="metamorph-97-start" type="text/x-placeholder"></script>Assessments &amp; Services<script id="metamorph-97-end" type="text/x-placeholder"></script>
+		<script id="metamorph-98-start" type="text/x-placeholder"></script><script id="metamorph-98-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-99-start" type="text/x-placeholder"></script><script id="metamorph-99-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-100-start" type="text/x-placeholder"></script><script id="metamorph-100-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-101-start" type="text/x-placeholder"></script><script id="metamorph-101-end" type="text/x-placeholder"></script>
+<script id="metamorph-94-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-63-end" type="text/x-placeholder"></script><script id="metamorph-64-start" type="text/x-placeholder"></script>
+		<div id="ember655" class="ember-view tree-node child-node"><script id="metamorph-102-start" type="text/x-placeholder"></script>
+	<div id="ember657" class="ember-view">
+		<script id="metamorph-103-start" type="text/x-placeholder"></script>
+			<script id="metamorph-104-start" type="text/x-placeholder"></script>
+			<span class="pull-left" data-ember-action="12">
+				<i class="icon icon-expand-alt"></i>
+			</span>
+			<script id="metamorph-104-end" type="text/x-placeholder"></script>
+		<script id="metamorph-103-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember661" class="ember-view"><div id="ember662" class="ember-view">
+	<a id="ember663" class="ember-view" href="/20691">
+		<i id="ember664" class="ember-view icon-folder-close"></i> <script id="metamorph-105-start" type="text/x-placeholder"></script>Consulting - Existing<script id="metamorph-105-end" type="text/x-placeholder"></script>
+		<script id="metamorph-106-start" type="text/x-placeholder"></script><script id="metamorph-106-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-107-start" type="text/x-placeholder"></script><script id="metamorph-107-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-108-start" type="text/x-placeholder"></script><script id="metamorph-108-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-109-start" type="text/x-placeholder"></script><script id="metamorph-109-end" type="text/x-placeholder"></script>
+<script id="metamorph-102-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-64-end" type="text/x-placeholder"></script><script id="metamorph-65-start" type="text/x-placeholder"></script>
+		<div id="ember669" class="ember-view tree-node child-node"><script id="metamorph-110-start" type="text/x-placeholder"></script>
+	<div id="ember671" class="ember-view">
+		<script id="metamorph-111-start" type="text/x-placeholder"></script>
+			<script id="metamorph-112-start" type="text/x-placeholder"></script>
+			<span class="pull-left" data-ember-action="13">
+				<i class="icon icon-expand-alt"></i>
+			</span>
+			<script id="metamorph-112-end" type="text/x-placeholder"></script>
+		<script id="metamorph-111-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember675" class="ember-view"><div id="ember676" class="ember-view">
+	<a id="ember677" class="ember-view" href="/20694">
+		<i id="ember678" class="ember-view icon-folder-close"></i> <script id="metamorph-113-start" type="text/x-placeholder"></script>Consulting - General<script id="metamorph-113-end" type="text/x-placeholder"></script>
+		<script id="metamorph-114-start" type="text/x-placeholder"></script><script id="metamorph-114-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-115-start" type="text/x-placeholder"></script><script id="metamorph-115-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-116-start" type="text/x-placeholder"></script><script id="metamorph-116-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-117-start" type="text/x-placeholder"></script><script id="metamorph-117-end" type="text/x-placeholder"></script>
+<script id="metamorph-110-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-65-end" type="text/x-placeholder"></script><script id="metamorph-66-start" type="text/x-placeholder"></script>
+		<div id="ember683" class="ember-view tree-node child-node"><script id="metamorph-118-start" type="text/x-placeholder"></script>
+	<div id="ember685" class="ember-view">
+		<script id="metamorph-119-start" type="text/x-placeholder"></script>
+			<script id="metamorph-120-start" type="text/x-placeholder"></script>
+			<span class="pull-left" data-ember-action="14">
+				<i class="icon icon-expand-alt"></i>
+			</span>
+			<script id="metamorph-120-end" type="text/x-placeholder"></script>
+		<script id="metamorph-119-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember689" class="ember-view"><div id="ember690" class="ember-view">
+	<a id="ember691" class="ember-view" href="/20697">
+		<i id="ember692" class="ember-view icon-folder-close"></i> <script id="metamorph-121-start" type="text/x-placeholder"></script>Elevator Management<script id="metamorph-121-end" type="text/x-placeholder"></script>
+		<script id="metamorph-122-start" type="text/x-placeholder"></script><script id="metamorph-122-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-123-start" type="text/x-placeholder"></script><script id="metamorph-123-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-124-start" type="text/x-placeholder"></script><script id="metamorph-124-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-125-start" type="text/x-placeholder"></script><script id="metamorph-125-end" type="text/x-placeholder"></script>
+<script id="metamorph-118-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-66-end" type="text/x-placeholder"></script><script id="metamorph-67-start" type="text/x-placeholder"></script>
+		<div id="ember697" class="ember-view tree-node child-node"><script id="metamorph-126-start" type="text/x-placeholder"></script>
+	<div id="ember699" class="ember-view">
+		<script id="metamorph-127-start" type="text/x-placeholder"></script><script id="metamorph-127-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember702" class="ember-view"><div id="ember703" class="ember-view">
+	<a id="ember704" class="ember-view no-icon" href="/20823">
+		<i id="ember705" class="ember-view icon-folder-close"></i> <script id="metamorph-128-start" type="text/x-placeholder"></script>Master Lists<script id="metamorph-128-end" type="text/x-placeholder"></script>
+		<script id="metamorph-129-start" type="text/x-placeholder"></script><script id="metamorph-129-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-130-start" type="text/x-placeholder"></script><script id="metamorph-130-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-131-start" type="text/x-placeholder"></script><script id="metamorph-131-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-132-start" type="text/x-placeholder"></script><script id="metamorph-132-end" type="text/x-placeholder"></script>
+<script id="metamorph-126-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-67-end" type="text/x-placeholder"></script><script id="metamorph-68-start" type="text/x-placeholder"></script>
+		<div id="ember710" class="ember-view tree-node child-node"><script id="metamorph-133-start" type="text/x-placeholder"></script>
+	<div id="ember712" class="ember-view">
+		<script id="metamorph-134-start" type="text/x-placeholder"></script><script id="metamorph-134-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember715" class="ember-view"><div id="ember716" class="ember-view">
+	<a id="ember717" class="ember-view no-icon" href="/20682">
+		<i id="ember718" class="ember-view icon-folder-close"></i> <script id="metamorph-135-start" type="text/x-placeholder"></script>Master Templates<script id="metamorph-135-end" type="text/x-placeholder"></script>
+		<script id="metamorph-136-start" type="text/x-placeholder"></script><script id="metamorph-136-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-137-start" type="text/x-placeholder"></script><script id="metamorph-137-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-138-start" type="text/x-placeholder"></script><script id="metamorph-138-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-139-start" type="text/x-placeholder"></script><script id="metamorph-139-end" type="text/x-placeholder"></script>
+<script id="metamorph-133-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-68-end" type="text/x-placeholder"></script><script id="metamorph-69-start" type="text/x-placeholder"></script>
+		<div id="ember723" class="ember-view tree-node child-node"><script id="metamorph-140-start" type="text/x-placeholder"></script>
+	<div id="ember725" class="ember-view">
+		<script id="metamorph-141-start" type="text/x-placeholder"></script><script id="metamorph-141-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember728" class="ember-view"><div id="ember729" class="ember-view">
+	<a id="ember730" class="ember-view no-icon" href="/26839">
+		<i id="ember731" class="ember-view icon-folder-close"></i> <script id="metamorph-142-start" type="text/x-placeholder"></script>Operations-Admin Only<script id="metamorph-142-end" type="text/x-placeholder"></script>
+		<script id="metamorph-143-start" type="text/x-placeholder"></script><script id="metamorph-143-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-144-start" type="text/x-placeholder"></script><script id="metamorph-144-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-145-start" type="text/x-placeholder"></script><script id="metamorph-145-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-146-start" type="text/x-placeholder"></script><script id="metamorph-146-end" type="text/x-placeholder"></script>
+<script id="metamorph-140-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-69-end" type="text/x-placeholder"></script><script id="metamorph-70-start" type="text/x-placeholder"></script>
+		<div id="ember736" class="ember-view tree-node child-node"><script id="metamorph-147-start" type="text/x-placeholder"></script>
+	<div id="ember738" class="ember-view">
+		<script id="metamorph-148-start" type="text/x-placeholder"></script><script id="metamorph-148-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember741" class="ember-view"><div id="ember742" class="ember-view">
+	<a id="ember743" class="ember-view no-icon" href="/26719">
+		<i id="ember744" class="ember-view icon-folder-close"></i> <script id="metamorph-149-start" type="text/x-placeholder"></script>Sandbox<script id="metamorph-149-end" type="text/x-placeholder"></script>
+		<script id="metamorph-150-start" type="text/x-placeholder"></script><script id="metamorph-150-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-151-start" type="text/x-placeholder"></script><script id="metamorph-151-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-152-start" type="text/x-placeholder"></script><script id="metamorph-152-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-153-start" type="text/x-placeholder"></script><script id="metamorph-153-end" type="text/x-placeholder"></script>
+<script id="metamorph-147-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-70-end" type="text/x-placeholder"></script><script id="metamorph-71-start" type="text/x-placeholder"></script>
+		<div id="ember749" class="ember-view tree-node child-node"><script id="metamorph-154-start" type="text/x-placeholder"></script>
+	<div id="ember751" class="ember-view">
+		<script id="metamorph-155-start" type="text/x-placeholder"></script>
+			<script id="metamorph-156-start" type="text/x-placeholder"></script>
+			<span class="pull-left" data-ember-action="15">
+				<i class="icon icon-expand-alt"></i>
+			</span>
+			<script id="metamorph-156-end" type="text/x-placeholder"></script>
+		<script id="metamorph-155-end" type="text/x-placeholder"></script>
+
+		
+		<div id="ember755" class="ember-view"><div id="ember756" class="ember-view">
+	<a id="ember757" class="ember-view" href="/13497">
+		<i id="ember758" class="ember-view icon-folder-close"></i> <script id="metamorph-157-start" type="text/x-placeholder"></script>Uncategorized<script id="metamorph-157-end" type="text/x-placeholder"></script>
+		<script id="metamorph-158-start" type="text/x-placeholder"></script><script id="metamorph-158-end" type="text/x-placeholder"></script>
+
+		<script id="metamorph-159-start" type="text/x-placeholder"></script><script id="metamorph-159-end" type="text/x-placeholder"></script>
+	</a>
+
+	<script id="metamorph-160-start" type="text/x-placeholder"></script><script id="metamorph-160-end" type="text/x-placeholder"></script>
+
+</div>
+</div>
+	
+</div>
+
+	<script id="metamorph-161-start" type="text/x-placeholder"></script><script id="metamorph-161-end" type="text/x-placeholder"></script>
+<script id="metamorph-154-end" type="text/x-placeholder"></script>
+</div>
+		<script id="metamorph-71-end" type="text/x-placeholder"></script><script id="metamorph-21-end" type="text/x-placeholder"></script>
+	<script id="metamorph-12-end" type="text/x-placeholder"></script>
+<script id="metamorph-6-end" type="text/x-placeholder"></script>
+</div>
+									</div>
+								</div>
+							</div>
+							
+							<script id="metamorph-13-start" type="text/x-placeholder"></script>
+								
+								<div class="accordion-group">
+									<div id="ember469" class="ember-view accordion-heading">
+<a data-toggle="collapse" class="accordion-toggle" data-path-name="tag" data-parent="folders-accordion" href="tags-collapse" style="" data-bindattr-5="5">
+	<i class="icon-tag" data-bindattr-6="6"></i> <script id="metamorph-14-start" type="text/x-placeholder"></script>Tags<script id="metamorph-14-end" type="text/x-placeholder"></script>
+</a>
+
+<script id="metamorph-15-start" type="text/x-placeholder"></script>
+	<script id="metamorph-16-start" type="text/x-placeholder"></script><script id="metamorph-16-end" type="text/x-placeholder"></script>
+<script id="metamorph-15-end" type="text/x-placeholder"></script>
+
+<div class="clearfix"></div>
+</div>
+									<div id="tags-collapse" class="accordion-body collapse">
+										<div class="accordion-inner tags-container">
+											<div id="ember480" class="ember-view ember-list-view" style="height:1042px;position:relative;overflow:auto;-webkit-overflow-scrolling:touch;overflow-scrolling:touch;"><div class="ember-list-container" style="height: 589px;"><div id="ember510" class="ember-view ember-list-item-view folder-list-item" style="top: 0px; left: 0px;"><a id="ember529" class="ember-view" href="/tag/242391">
+	<script id="metamorph-22-start" type="text/x-placeholder"></script><script id="metamorph-22-end" type="text/x-placeholder"></script>
+	<script id="metamorph-23-start" type="text/x-placeholder"></script>20240910-us-all-ce-web-modernize your elevator-last chance invite<script id="metamorph-23-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember511" class="ember-view ember-list-item-view folder-list-item" style="top: 31px; left: 0px;"><a id="ember537" class="ember-view" href="/tag/218932">
+	<script id="metamorph-24-start" type="text/x-placeholder"></script><script id="metamorph-24-end" type="text/x-placeholder"></script>
+	<script id="metamorph-25-start" type="text/x-placeholder"></script>240521-us-all-cg-wbn-pbm contract-on-demand<script id="metamorph-25-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember512" class="ember-view ember-list-item-view folder-list-item" style="top: 62px; left: 0px;"><a id="ember539" class="ember-view" href="/tag/239019">
+	<script id="metamorph-26-start" type="text/x-placeholder"></script><script id="metamorph-26-end" type="text/x-placeholder"></script>
+	<script id="metamorph-27-start" type="text/x-placeholder"></script>240910-us-all-ce-web-modernize your elevator<script id="metamorph-27-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember513" class="ember-view ember-list-item-view folder-list-item" style="top: 93px; left: 0px;"><a id="ember541" class="ember-view" href="/tag/194857">
+	<script id="metamorph-28-start" type="text/x-placeholder"></script><script id="metamorph-28-end" type="text/x-placeholder"></script>
+	<script id="metamorph-29-start" type="text/x-placeholder"></script>automation-net new<script id="metamorph-29-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember514" class="ember-view ember-list-item-view folder-list-item" style="top: 124px; left: 0px;"><a id="ember543" class="ember-view" href="/tag/154846">
+	<script id="metamorph-30-start" type="text/x-placeholder"></script><script id="metamorph-30-end" type="text/x-placeholder"></script>
+	<script id="metamorph-31-start" type="text/x-placeholder"></script>campaign member<script id="metamorph-31-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember515" class="ember-view ember-list-item-view folder-list-item" style="top: 155px; left: 0px;"><a id="ember545" class="ember-view" href="/tag/197302">
+	<script id="metamorph-32-start" type="text/x-placeholder"></script><script id="metamorph-32-end" type="text/x-placeholder"></script>
+	<script id="metamorph-33-start" type="text/x-placeholder"></script>competitor<script id="metamorph-33-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember516" class="ember-view ember-list-item-view folder-list-item" style="top: 186px; left: 0px;"><a id="ember547" class="ember-view" href="/tag/223672">
+	<script id="metamorph-34-start" type="text/x-placeholder"></script><script id="metamorph-34-end" type="text/x-placeholder"></script>
+	<script id="metamorph-35-start" type="text/x-placeholder"></script>dedup<script id="metamorph-35-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember517" class="ember-view ember-list-item-view folder-list-item" style="top: 217px; left: 0px;"><a id="ember549" class="ember-view" href="/tag/174018">
+	<script id="metamorph-36-start" type="text/x-placeholder"></script><script id="metamorph-36-end" type="text/x-placeholder"></script>
+	<script id="metamorph-37-start" type="text/x-placeholder"></script>do not email<script id="metamorph-37-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember518" class="ember-view ember-list-item-view folder-list-item" style="top: 248px; left: 0px;"><a id="ember551" class="ember-view" href="/tag/262933">
+	<script id="metamorph-38-start" type="text/x-placeholder"></script><script id="metamorph-38-end" type="text/x-placeholder"></script>
+	<script id="metamorph-39-start" type="text/x-placeholder"></script>emergency services<script id="metamorph-39-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember519" class="ember-view ember-list-item-view folder-list-item" style="top: 279px; left: 0px;"><a id="ember553" class="ember-view" href="/tag/194155">
+	<script id="metamorph-40-start" type="text/x-placeholder"></script><script id="metamorph-40-end" type="text/x-placeholder"></script>
+	<script id="metamorph-41-start" type="text/x-placeholder"></script>employee<script id="metamorph-41-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember520" class="ember-view ember-list-item-view folder-list-item" style="top: 310px; left: 0px;"><a id="ember555" class="ember-view" href="/tag/270288">
+	<script id="metamorph-42-start" type="text/x-placeholder"></script><script id="metamorph-42-end" type="text/x-placeholder"></script>
+	<script id="metamorph-43-start" type="text/x-placeholder"></script>hard bounced<script id="metamorph-43-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember521" class="ember-view ember-list-item-view folder-list-item" style="top: 341px; left: 0px;"><a id="ember557" class="ember-view" href="/tag/227869">
+	<script id="metamorph-44-start" type="text/x-placeholder"></script><script id="metamorph-44-end" type="text/x-placeholder"></script>
+	<script id="metamorph-45-start" type="text/x-placeholder"></script>hospitality fix<script id="metamorph-45-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember522" class="ember-view ember-list-item-view folder-list-item" style="top: 372px; left: 0px;"><a id="ember559" class="ember-view" href="/tag/122490">
+	<script id="metamorph-46-start" type="text/x-placeholder"></script><script id="metamorph-46-end" type="text/x-placeholder"></script>
+	<script id="metamorph-47-start" type="text/x-placeholder"></script>nevada building owners import<script id="metamorph-47-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember523" class="ember-view ember-list-item-view folder-list-item" style="top: 403px; left: 0px;"><a id="ember561" class="ember-view" href="/tag/146083">
+	<script id="metamorph-48-start" type="text/x-placeholder"></script><script id="metamorph-48-end" type="text/x-placeholder"></script>
+	<script id="metamorph-49-start" type="text/x-placeholder"></script>newsletter<script id="metamorph-49-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember524" class="ember-view ember-list-item-view folder-list-item" style="top: 434px; left: 0px;"><a id="ember563" class="ember-view" href="/tag/158547">
+	<script id="metamorph-50-start" type="text/x-placeholder"></script><script id="metamorph-50-end" type="text/x-placeholder"></script>
+	<script id="metamorph-51-start" type="text/x-placeholder"></script>op-building data contact<script id="metamorph-51-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember525" class="ember-view ember-list-item-view folder-list-item" style="top: 465px; left: 0px;"><a id="ember565" class="ember-view" href="/tag/253260">
+	<script id="metamorph-52-start" type="text/x-placeholder"></script><script id="metamorph-52-end" type="text/x-placeholder"></script>
+	<script id="metamorph-53-start" type="text/x-placeholder"></script>profiles<script id="metamorph-53-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember526" class="ember-view ember-list-item-view folder-list-item" style="top: 496px; left: 0px;"><a id="ember567" class="ember-view" href="/tag/270507">
+	<script id="metamorph-54-start" type="text/x-placeholder"></script><script id="metamorph-54-end" type="text/x-placeholder"></script>
+	<script id="metamorph-55-start" type="text/x-placeholder"></script>social source<script id="metamorph-55-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember527" class="ember-view ember-list-item-view folder-list-item" style="top: 527px; left: 0px;"><a id="ember569" class="ember-view" href="/tag/227872">
+	<script id="metamorph-56-start" type="text/x-placeholder"></script><script id="metamorph-56-end" type="text/x-placeholder"></script>
+	<script id="metamorph-57-start" type="text/x-placeholder"></script>subtype fix<script id="metamorph-57-end" type="text/x-placeholder"></script>
+</a>
+</div><div id="ember528" class="ember-view ember-list-item-view folder-list-item" style="top: 558px; left: 0px;"><a id="ember571" class="ember-view" href="/tag/106089">
+	<script id="metamorph-58-start" type="text/x-placeholder"></script><script id="metamorph-58-end" type="text/x-placeholder"></script>
+	<script id="metamorph-59-start" type="text/x-placeholder"></script>us-send3-g1<script id="metamorph-59-end" type="text/x-placeholder"></script>
+</a>
+</div></div></div>
+										</div>
+									</div>
+								</div>
+							<script id="metamorph-13-end" type="text/x-placeholder"></script>
+
+						</div>
+
+					</div>
+					<div class="folders-stage-left span9">
+						<script id="metamorph-17-start" type="text/x-placeholder"></script><script id="metamorph-0-start" type="text/x-placeholder"></script><div class="folder-container">
+	<div class="row-fluid">
+	<div class="span12 header">
+
+		<div class="inline pull-left">
+			<p class="inline header">
+                Search:
+                <br>
+				<input id="ember487" class="ember-view ember-text-field filter-by" type="text">
+			</p>
+
+			<script id="metamorph-18-start" type="text/x-placeholder"></script><script id="metamorph-18-end" type="text/x-placeholder"></script>
+		</div>
+
+		
+
+	</div>
+</div>
+
+	<div id="search-alert"></div>
+	<script id="metamorph-19-start" type="text/x-placeholder"></script><script id="metamorph-1-start" type="text/x-placeholder"></script>
+<div id="ember492" class="ember-view">
+<div class="row-fluid">
+	<div id="folder-contents" class="media-list span12 no-margin position-relative">
+		<script id="metamorph-20-start" type="text/x-placeholder"></script>
+			Loading...
+		<script id="metamorph-20-end" type="text/x-placeholder"></script>
+	</div>
+</div>
+</div><script id="metamorph-1-end" type="text/x-placeholder"></script><script id="metamorph-19-end" type="text/x-placeholder"></script>
+</div>
+<script id="metamorph-0-end" type="text/x-placeholder"></script><script id="metamorph-17-end" type="text/x-placeholder"></script>
+					</div>
+				</div>
+			</div>
+
+			<div class="modal-footer">
+				
+				<button class="btn" data-ember-action="7">Cancel</button>
+				
+				<button id="select-asset" class="btn btn-primary" data-ember-action="8" data-bindattr-9="9">Choose Selected</button>
+			</div>
+		</div>
+	</div>
+</div>
+</div></div>
+						<div style="clear:both;"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+		
+		<div id="indicator" style="display: none;"><div class="spinner" aria-role="progressbar" style="position: relative; width: 0px; z-index: 2000000000; left: 30px; top: 30px;"><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-0-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(0deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-1-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(30deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-2-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(60deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-3-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(90deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-4-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(120deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-5-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(150deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-6-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(180deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-7-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(210deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-8-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(240deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-9-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(270deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-10-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(300deg) translate(10px, 0px); border-radius: 2px;"></div></div><div style="position: absolute; top: -2px; opacity: 0.25; animation: 1s linear 0s infinite normal none running opacity-100-25-11-12;"><div style="position: absolute; width: 11px; height: 4px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px; transform-origin: left center; transform: rotate(330deg) translate(10px, 0px); border-radius: 2px;"></div></div></div></div>
+		
+			
+
+<div id="fancybox-tmp"></div><div id="fancybox-loading" class="fancybox-ie6"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap" class="fancybox-ie6"><div id="fancybox-outer"><iframe id="fancybox-hide-sel-frame" src="javascript:void(false)" scrolling="no" border="0" frameborder="0" tabindex="-1"></iframe><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><div class="k-list-container k-popup k-group k-reset" id="campaign_filter_em-list" data-role="popup" style="display: none; position: absolute;"><div class="k-list-optionlabel">All Campaigns</div><span class="k-list-filter"><input class="k-textbox slds-input" role="listbox" aria-haspopup="true" aria-expanded="false" aria-owns="campaign_filter_em_listbox" tabindex="0" aria-disabled="false" aria-readonly="false" placeholder="Search" style="margin-top: 4px;"><span unselectable="on" class="k-icon k-i-search">select</span></span><div class="noResultsMessage">No matching campaigns found.</div><div class="k-group-header" style="display:none"></div><ul unselectable="on" class="k-list k-reset" tabindex="-1" aria-hidden="true" id="campaign_filter_em_listbox" aria-live="polite" data-role="staticlist" role="listbox" style="overflow: auto;"></ul></div><tester id="addTagsMultiSelect_AddTags1_tag_autosize_tester" style="position: absolute; top: -9999px; left: -9999px; width: auto; font-size: 13px; font-family: &quot;Salesforce Sans&quot;, Arial, sans-serif; font-weight: 500; letter-spacing: 0px; white-space: nowrap;"></tester><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><tester id="removeTagsMultiSelect_RemoveTags1_tag_autosize_tester" style="position: absolute; top: -9999px; left: -9999px; width: auto; font-size: 13px; font-family: &quot;Salesforce Sans&quot;, Arial, sans-serif; font-weight: 500; letter-spacing: 0px; white-space: nowrap;"></tester><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><tester id="addTagsMultiSelect_AddTags2_tag_autosize_tester" style="position: absolute; top: -9999px; left: -9999px; width: auto; font-size: 13px; font-family: &quot;Salesforce Sans&quot;, Arial, sans-serif; font-weight: 500; letter-spacing: 0px; white-space: nowrap;"></tester><ul id="ui-id-3" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><tester id="removeTagsMultiSelect_RemoveTags2_tag_autosize_tester" style="position: absolute; top: -9999px; left: -9999px; width: auto; font-size: 13px; font-family: &quot;Salesforce Sans&quot;, Arial, sans-serif; font-weight: 500; letter-spacing: 0px; white-space: nowrap;"></tester><ul id="ui-id-4" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div class="k-list-container k-popup k-group k-reset" id="campaign_filter_emtd-list" data-role="popup" style="display: none; position: absolute;"><div class="k-list-optionlabel">All Campaigns</div><span class="k-list-filter"><input class="k-textbox slds-input" role="listbox" aria-haspopup="true" aria-expanded="false" aria-owns="campaign_filter_emtd_listbox" tabindex="0" aria-disabled="false" aria-readonly="false" placeholder="Search" style="margin-top: 4px;"><span unselectable="on" class="k-icon k-i-search">select</span></span><div class="noResultsMessage">No matching campaigns found.</div><div class="k-group-header" style="display:none"></div><ul unselectable="on" class="k-list k-reset" tabindex="-1" aria-hidden="true" id="campaign_filter_emtd_listbox" aria-live="polite" data-role="staticlist" role="listbox" style="overflow: auto;"></ul></div><tester id="tags1731609002379_tag_autosize_tester" style="position: absolute; top: -9999px; left: -9999px; width: auto; font-size: 13px; font-family: &quot;Salesforce Sans&quot;, Arial, sans-serif; font-weight: 500; letter-spacing: 0px; white-space: nowrap;"></tester><ul id="ui-id-5" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><tester id="tags1731609002385_tag_autosize_tester" style="position: absolute; top: -9999px; left: -9999px; width: auto; font-size: 13px; font-family: &quot;Salesforce Sans&quot;, Arial, sans-serif; font-weight: 500; letter-spacing: 0px; white-space: nowrap;"></tester><ul id="ui-id-6" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><tester id="tags1731609003051_tag_autosize_tester" style="position: absolute; top: -9999px; left: -9999px; width: auto; font-size: 13px; font-family: &quot;Salesforce Sans&quot;, Arial, sans-serif; font-weight: 500; letter-spacing: 0px; white-space: nowrap;"></tester><ul id="ui-id-7" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><tester id="tags1731609003054_tag_autosize_tester" style="position: absolute; top: -9999px; left: -9999px; width: auto; font-size: 13px; font-family: &quot;Salesforce Sans&quot;, Arial, sans-serif; font-weight: 500; letter-spacing: 0px; white-space: nowrap;"></tester><ul id="ui-id-8" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div></body></html>
